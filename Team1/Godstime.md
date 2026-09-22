@@ -1,7 +1,8 @@
 # 2x Project Manager Workstation Proposed specification
-BuildCores Parts List: [Link](https://uk.buildcores.com/builds/QYiAqGzuF?share=true)
 
- 
+
+
+
 |**Component**|**Title**|**Price**|
 |:-|:-|:-|
 |Case|[MONTECH XR Panoramic High Airflow ATX PC Case, 3 ARGB PWM Fans, Black](https://uk.buildcores.com/products/PCCase/3890cdq32/MONTECH-XR-Panoramic-High-Airflow-ATX-PC-Case%2C-3-ARGB-PWM-Fans%2C-Black)|[£49.99 (ScanComputer)](https://www.awin1.com/cread.php?awinmid=15473&awinaffid=743627&ued=https%3A%2F%2Fwww.scan.co.uk%2Fproducts%2Fmontech-xr-2025-dual-window-compact-mid-tower-chassis-black-3x-120mm-argb-fans-2x-usb-30-1x-usb-type)|
