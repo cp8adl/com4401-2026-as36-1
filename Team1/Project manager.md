@@ -54,3 +54,50 @@ The ASUS PRIME B550-PLUS was selected because it provides compatibility with the
 
 # Justification
 The Gigabyte GeForce GT 1030 was selected because the Ryzen 7 5700 requires a discrete graphics card. The Project Manager does not require a high-performance professional GPU because their main tasks involve office applications, project management, document review and communication rather than CAD modelling or 3D rendering. The GT 1030 therefore provides basic dedicated graphics capability without allocating a large proportion of the workstation budget to a graphics card. It also supports multiple displays, which can be useful when comparing drawings, reports and project information.
+
+# |RAM – Corsair Vengeance LPX 32 GB (2 × 16 GB) DDR4-3200|  The 32 GB RAM consists of two 16 GB modules operating at 3200 MT/s. The two-module configuration allows dual-channel memory operation.
+
+# Justification
+32 GB of DDR4 RAM was selected to provide sufficient capacity for heavy multitasking.
+provides additional headroom when running spreadsheets, web applications, communication software, PDF documents and project-management applications simultaneously. The 2 × 16 GB configuration also supports dual-channel memory operation.
+
+# | Storage – TEAMGROUP MP33 1 TB NVMe SSD |  The 1 TB NVMe SSD provides fast storage for the operating system, applications and user files.
+
+# Justification
+A 1 TB NVMe SSD was selected because it provides sufficient local storage for operating system files, business applications and project documents while providing faster access than a traditional mechanical hard drive. The 1 TB capacity also provides sufficient working space for a Project Manager without unnecessarily increasing the workstation cost.
+
+# PSU Straight Power 12 750 W
+
+# Justtification
+A 750 W PSU provides significantly more power than this system actually requires, giving considerable headroom for future upgrades.
+
+# Case – MONTECH XR Panoramic ATX : The case houses and protects all internal components and provides airflow.
+
+
+# Justification
+The MONTECH XR case was selected because it supports the ATX motherboard and provides adequate space for the selected components. Its included fans provide airflow through the case, helping maintain suitable operating temperatures. The case also provides a practical platform for future upgrades.
+
+# | CPU Cooler – Arctic Alpine 23 | : This provides additional CPU cooling
+
+# Justification
+However, AMD states that the Ryzen 7 5700 includes the Wraith Stealth cooler. 
+The aftermarket Arctic cooler was selected to provide additional cooling capacity and potentially quieter operation during prolonged workloads.
+
+
+# Network Card – ASUS XG-C100C 10 Gb/s Ethernet
+
+# Justification
+The 10 Gb Ethernet adapter was selected to provide high-speed wired network connectivity for large project files and shared resources. This could benefit a Project Manager when accessing centralised project documents and architectural files. However, the additional network card is only cost-effective if the organisation's existing network infrastructure supports 10 Gb Ethernet.
+
+
+# Monitor – MSI PRO MP251W E2
+-  24.5"
+- 1920 × 1080
+- IPS
+- 120 Hz
+- 300 nits
+- 178° viewing angles
+- 99% sRGB
+- HDMI and DisplayPort
+- built-in speakers
+- VESA mounting support
