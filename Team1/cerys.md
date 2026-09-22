@@ -16,5 +16,5 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=t
 |Mouse|[Razer Basilisk Mobile Portable Ergonomic Wireless Gaming Mouse: 10 Programmable Controls HyperScroll - Optical Switches Gen-3 - Long Battery Life - AI Prompt - 2.4 GHz, Bluetooth, USB C](https://uk.buildcores.com/products/Mouse/pmgudzd6n/Razer-Basilisk-Mobile-Portable-Ergonomic-Wireless-Gaming-Mouse%3A-10-Programmable-Controls-HyperScroll-Optical-Switches-Gen-3-Long-Battery-Life-AI-Prompt-2.4-GHz%2C-Bluetooth%2C-USB-C)|[£85.49 (Box.co)](https://www.awin1.com/cread.php?awinmid=100685&awinaffid=743627&campaign=BuildCores&ued=https%3A%2F%2Fbox.co.uk%2Frz01-04310100-r3g1-razer-basilisk-mobile-mouse)|
 |Monitor|[MSI PRO MP275W E2](https://uk.buildcores.com/products/Monitor/ngu27am52/MSI-PRO-MP275W-E2)|[£78.95 (Overclockers)](https://www.awin1.com/cread.php?awinmid=28821&awinaffid=743627&campaign=BuildCores&ued=https%3A%2F%2Fwww.overclockers.co.uk%2Fmsi-27-pro-mp275w-e2-1920x1080-ips-120hz-flat-monitor-white-mon-msi-03902.html)|
 | | | |
-|**Total Price**|**$845.36**| |
+|**Total Price**|**£845.36**| |
 |[BuildCores Web](https://uk.buildcores.com)|[BuildCores iOS](https://apps.apple.com/us/app/buildcores-part-picker-for-pc/id1441971434)|[BuildCores Android](https://play.google.com/store/apps/details?id=com.buildcores.buildcores&pcampaignid=web_share)|
