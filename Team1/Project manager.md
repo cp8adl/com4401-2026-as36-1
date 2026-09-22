@@ -101,3 +101,7 @@ The 10 Gb Ethernet adapter was selected to provide high-speed wired network conn
 - HDMI and DisplayPort
 - built-in speakers
 - VESA mounting support
+
+# Justification
+The MSI PRO MP251W E2 was selected as a business-oriented display because its 24.5-inch Full HD IPS panel provides sufficient screen space for office productivity, spreadsheets, documents, dashboards and project-management applications. Its IPS panel provides wide 178-degree viewing angles, while the 120 Hz refresh rate provides smooth interaction when scrolling through documents and applications. The monitor also provides HDMI and DisplayPort connectivity, allowing compatibility with the selected workstation.
+
