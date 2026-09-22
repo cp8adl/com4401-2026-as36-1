@@ -26,7 +26,7 @@
 |[BuildCores Web](https://uk.buildcores.com)|[BuildCores iOS](https://apps.apple.com/us/app/buildcores-part-picker-for-pc/id1441971434)|[BuildCores Android](https://play.google.com/store/apps/details?id=com.buildcores.buildcores&pcampaignid=web_share)|
 
 # Purpose of project manager work station
-For your GitHub portfolio, you can make the language a little more academic and professional:
+
 
  - Microsoft Office and document creation
 - Spreadsheet management and data analysis
@@ -39,19 +39,18 @@ For your GitHub portfolio, you can make the language a little more academic and 
 - Client and team communication
 - Multitasking across multiple business applications
 
-  # CPU – AMD Ryzen 7 5700 
-The AMD Ryzen 7 5700 is an 8-core, 16-thread processor with a base clock of 3.7 GHz and boost clock of up to 4.6 GHz. It has a 65 W default TDP and uses the AM4 socket.
+  # |CPU – AMD Ryzen 7 5700|  The AMD Ryzen 7 5700 is an 8-core, 16-thread processor with a base clock of 3.7 GHz and boost clock of up to 4.6 GHz. It has a 65 W default TDP and uses the AM4 socket.
+
 #  Justification
 The AMD Ryzen 7 5700 was selected because its 8 cores and 16 threads provide sufficient processing performance for a Project Manager who may need to multitask between office applications, web-based systems, project management software and video-conferencing applications. The processor therefore provides additional performance headroom without requiring a high-end workstation-class CPU intended for CAD or 3D rendering.
 
-# Motherboard – ASUS PRIME B550-PLUS 
-The ASUS PRIME B550-PLUS is an ATX motherboard supporting AMD Ryzen processors on the AM4 platform. It provides four DDR4 memory slots, two M.2 slots, six SATA ports and integrated 1 Gb Ethernet
+# |Motherboard – ASUS PRIME B550-PLUS| The ASUS PRIME B550-PLUS is an ATX motherboard supporting AMD Ryzen processors on the AM4 platform. It provides four DDR4 memory slots, two M.2 slots, six SATA ports and integrated 1 Gb Ethernet
+
 # Justification
 The ASUS PRIME B550-PLUS was selected because it provides compatibility with the Ryzen 7 5700 and offers sufficient expansion capability for a business workstation. It supports up to 128 GB of DDR4 memory, two M.2 storage devices and six SATA devices. It also includes integrated 1 Gb Ethernet, providing reliable wired network connectivity. This gives the organisation opportunities for future upgrades without requiring an immediate replacement of the motherboard. 
 
-# GPU – Gigabyte GeForce GT 1030 Low Profile D4 2G
-This is probably the component you need to explain most carefully.
-The GT 1030 has 2 GB of DDR4 memory, a 64-bit memory bus and supports a maximum digital resolution of 4096 × 2160. It also supports two displays
+# |GPU – Gigabyte GeForce GT 1030 Low Profile D4 2G|  This is probably the component you need to explain most carefully.The GT 1030 has 2 GB of DDR4 memory, a 64-bit memory bus and supports a maximum digital resolution of 4096 × 2160. It also supports two displays
+
 
 # Justification
 The Gigabyte GeForce GT 1030 was selected because the Ryzen 7 5700 requires a discrete graphics card. The Project Manager does not require a high-performance professional GPU because their main tasks involve office applications, project management, document review and communication rather than CAD modelling or 3D rendering. The GT 1030 therefore provides basic dedicated graphics capability without allocating a large proportion of the workstation budget to a graphics card. It also supports multiple displays, which can be useful when comparing drawings, reports and project information.
