@@ -2,6 +2,10 @@
 
 BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=true)
 
+
+<img width="1906" height="923" alt="image" src="https://github.com/user-attachments/assets/0ecfc01a-491a-4508-b84f-e7c5cd07e4ea" />
+
+
  
 |**Component**|**Title**|**Price**|
 |:-|:-|:-|
