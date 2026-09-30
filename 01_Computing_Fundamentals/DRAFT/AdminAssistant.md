@@ -1,4 +1,14 @@
 # ASSIGNMENT 1 DRAFT
+
+## COMPUTER BUILD IMG
+<img width="2400" height="1260" alt="New Build-share" src="https://github.com/user-attachments/assets/e508e2f4-6069-4ee5-bcfd-d48330b09cb5" />
+
+
+
+
+
+
+
 ## BUILDCORES PARTS LIST
 BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=true)
 
@@ -44,7 +54,18 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=t
 
 
 ## SQL TABLES CREATED
-<img width="1906" height="923" alt="image" src="https://github.com/user-attachments/assets/0ecfc01a-491a-4508-b84f-e7c5cd07e4ea" />
+
+<img width="1918" height="935" alt="SQL Tables" src="https://github.com/user-attachments/assets/5d33eae0-1680-41a7-b4c9-ccbb372619b5" />
+
+
+
+
+## QUERY 1. LIST EVERY ROLE
+### *Show all columns for every row in the EmployeeRoles table*
+
+<img width="1920" height="1028" alt="QUERY 1" src="https://github.com/user-attachments/assets/81357edd-fdd5-4be9-8f66-db98b111e8b5" />
+
+
 
 
  
