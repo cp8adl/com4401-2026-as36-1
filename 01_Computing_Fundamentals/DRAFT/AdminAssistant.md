@@ -1,6 +1,5 @@
 # ASSIGNMENT 1 DRAFT
-## BUILDCORES LIST
-
+## BUILDCORES PARTS LIST
 BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=true)
 
  
@@ -9,18 +8,38 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=t
 |Case|[Corsair 3200D RS Black](https://uk.buildcores.com/products/PCCase/xbh2yq5c0/Corsair-3200D-RS-Black)|[£59.99 (Corsair UK)](https://go.corsair.com/c/2299452/497991/8513?prodsku=CC-9011334-WW&u=https%3A%2F%2Fwww.corsair.com%2Fuk%2Fen%2Fp%2Fpc-cases%2FCC-9011334-WW%2F3200d-rs-mid-tower-pc-case-cc-9011334-ww&intsrc=CATF_3907)|
 |CPU|[AMD Ryzen 5 5500](https://uk.buildcores.com/products/CPU/2ixkrou1w/AMD-Ryzen-5-5500)|[£74.99 (Overclockers)](https://www.awin1.com/cread.php?awinmid=28821&awinaffid=743627&campaign=BuildCores&ued=https%3A%2F%2Fwww.overclockers.co.uk%2Famd-ryzen-5-5500-six-core-4.2ghz-socket-am4-processor-retail-cp-3d3-am.html)|
 |Motherboard|[ASRock B450 Pro4 ATX AM4 Motherboard](https://uk.buildcores.com/products/Motherboard/8byusw7f3/ASRock-B450-Pro4-ATX-AM4-Motherboard)|[£83.71 (Amazon)](https://www.amazon.co.uk/dp/B07FVYKJHR?tag=buildcoresx-21&linkCode=ogi&th=1&psc=1)|
-|GPU|[AMD Radeon Pro WX 2100 2GB GDDR5](https://uk.buildcores.com/products/GPU/3967jkvwn/AMD-Radeon-Pro-WX-2100-2GB-GDDR5)|[£97.00 (Amazon)](https://www.amazon.co.uk/dp/B073CK9MLR?tag=buildcoresx-21&linkCode=ogi&th=1&psc=1)|
 |RAM|[TEAMGROUP Elite Black DDR4-2666 CL19 16GB (2x8GB)](https://uk.buildcores.com/products/RAM/rwyntc5wx/TEAMGROUP-Elite-Black-DDR4-2666-CL19-16GB-(2x8GB))|[£99.84 (Amazon)](https://www.amazon.co.uk/dp/B07QMMY48M?tag=buildcoresx-21&linkCode=ogi&th=1&psc=1)|
 |CPU Cooler|[ARCTIC Freezer 36 (Black) CPU Cooler](https://uk.buildcores.com/products/CPUCooler/75jpfka5v/ARCTIC-Freezer-36-(Black)-CPU-Cooler)|[£22.99 (Amazon)](https://www.amazon.co.uk/dp/B09VH14935?tag=buildcoresx-21&linkCode=ogi&th=1&psc=1)|
 |Storage|[TEAMGROUP MP33 1TB M.2-2280 SSD PCIe 3.0 x4 NVMe](https://uk.buildcores.com/products/Storage/emt62v32u/TEAMGROUP-MP33-1TB-M.2-2280-SSD-PCIe-3.0-x4-NVMe)|[£29.66 (Quzo)](https://www.awin1.com/cread.php?awinmid=19849&awinaffid=743627&campaign=BuildCores&ued=https%3A%2F%2Fwww.quzo.co.uk%2Fteam-128gb-elite-a1-micro-sdxc-card-with-sd-adapter-uhsi-class-3-u3-a1-app-performance-100mbs-teausdx128giv30a103-pid385072.html)|
-|Power Supply|[MSI MAG A650GL Black 650W Fully Modular 80+ Gold Certified ATX](https://uk.buildcores.com/products/PSU/unn6lswmr/MSI-MAG-A650GL-Black-650W-Fully-Modular-80%2B-Gold-Certified-ATX)|[£70.99 (CCL)](https://ccl.pxf.io/c/2299452/1991091/24481?prodsku=PSU2298&u=https%3A%2F%2Fwww.cclonline.com%2Fmag-a650gl-msi-mag-a650gl-650w-modular-80-plus-gold-power-supply-455158%2F&intsrc=CATF_16482)|
-|Mouse|[Razer Basilisk Mobile Portable Ergonomic Wireless Gaming Mouse: 10 Programmable Controls HyperScroll - Optical Switches Gen-3 - Long Battery Life - AI Prompt - 2.4 GHz, Bluetooth, USB C](https://uk.buildcores.com/products/Mouse/pmgudzd6n/Razer-Basilisk-Mobile-Portable-Ergonomic-Wireless-Gaming-Mouse%3A-10-Programmable-Controls-HyperScroll-Optical-Switches-Gen-3-Long-Battery-Life-AI-Prompt-2.4-GHz%2C-Bluetooth%2C-USB-C)|[£81.68 (Box.co)](https://www.awin1.com/cread.php?awinmid=100685&awinaffid=743627&campaign=BuildCores&ued=https%3A%2F%2Fbox.co.uk%2Frz01-04310100-r3g1-razer-basilisk-mobile-mouse)|
+|Power Supply|[be quiet! Pure Power 13 M Black 550W Fully Modular 80+ Gold Certified](https://uk.buildcores.com/products/PSU/x5lkcmcx2/be-quiet!-Pure-Power-13-M-Black-550W-Fully-Modular-80%2B-Gold-Certified)|[£78.99 (CCL)](https://ccl.pxf.io/c/2299452/1991091/24481?prodsku=PSU2506&u=https%3A%2F%2Fwww.cclonline.com%2Fbp024eu-550w-be-quiet-pure-power-13-m-modular-80-plus-gold-psu%2F&intsrc=CATF_16482)|
 |Monitor|[MSI PRO MP275W E2](https://uk.buildcores.com/products/Monitor/ngu27am52/MSI-PRO-MP275W-E2)|[£78.95 (Overclockers)](https://www.awin1.com/cread.php?awinmid=28821&awinaffid=743627&campaign=BuildCores&ued=https%3A%2F%2Fwww.overclockers.co.uk%2Fmsi-27-pro-mp275w-e2-1920x1080-ips-120hz-flat-monitor-white-mon-msi-03902.html)|
 |Keyboard|[HP 150 Wired Standard Keyboard](https://uk.buildcores.com/products/Keyboard/i8k3hgshq/HP-150-Wired-Standard-Keyboard)|[£23.96 (Amazon)](https://www.amazon.co.uk/dp/B0BT15X781?tag=buildcoresx-21&linkCode=ogi&th=1&psc=1)|
 |Headphones|[Koss CS100 USB Closed-Back Headphones](https://uk.buildcores.com/products/Headphones/1twr38ei1/Koss-CS100-USB-Closed-Back-Headphones)|[£30.77 (Amazon)](https://www.amazon.co.uk/dp/B00DF9DW8U?tag=buildcoresx-21&linkCode=ogi&th=1&psc=1)|
+|Mouse|[Logitech Optical USB Wired Optical Mouse](https://uk.buildcores.com/products/Mouse/hkuwzqh6d/Logitech-Optical-USB-Wired-Optical-Mouse)|[£5.99 (CCL)](https://ccl.pxf.io/c/2299452/1991091/24481?prodsku=MOU1844&u=https%3A%2F%2Fwww.cclonline.com%2F910-003357-logitech-b100-optical-usb-mouse-black-%2F&intsrc=CATF_16482)|
+|Mouse|[Logitech Optical USB Wired Optical Mouse](https://uk.buildcores.com/products/Mouse/hkuwzqh6d/Logitech-Optical-USB-Wired-Optical-Mouse)|[£5.99 (CCL)](https://ccl.pxf.io/c/2299452/1991091/24481?prodsku=MOU1844&u=https%3A%2F%2Fwww.cclonline.com%2F910-003357-logitech-b100-optical-usb-mouse-black-%2F&intsrc=CATF_16482)|
 | | | |
-|**Total Price**|**$754.53**| |
+|**Total Price**|**$595.83**| |
 |[BuildCores Web](https://uk.buildcores.com)|[BuildCores iOS](https://apps.apple.com/us/app/buildcores-part-picker-for-pc/id1441971434)|[BuildCores Android](https://play.google.com/store/apps/details?id=com.buildcores.buildcores&pcampaignid=web_share)|
+
+
+
+
+
+## JUSTIFICATIONS
+
+| Model      | Description | Why I Chose This     |
+| :---        |    :----:   |          ---: |
+|Corsair 3200D RS Black      | Case       | solid and affordable an admin assistant, protects the interior components   |
+|AMD Ryzen 5 5500   | CPU        | Good for office admin work, produces fast response times for the everyday productivity for workloads      |
+|ASRock B450 Pro4 ATX AM4      | Motherboard | Ideal for office work, has 2x usb 2.0 slots and 1x usb 3.2 Gen 1 which is great for handling wired components such as mice or keyboards and useful for insterting backup hard drives    |
+|TEAMGROUP Elite Black DDR4-2666 CL19 16GB (2x8GB)      | RAM       | Ideal for office work as it allows youu to run numerous office applications at a time. The two 8gb sticks enable channel bandwith which speeds up data processing   |
+|ARCTIC Freezer 36 (Black) CPU Cooler   | CPU COOLER        | This is a good choice for an administrative workstation as it is suitable for demanding tasks such as database management, has straightforward installation and has a strong thermal performance. It is also good for sustained workloads, such as storing data, processing documents and multitasking and is also a good choice due to its affordability, suiting a basic office hardware setup.| 
+|TEAMGROUP MP33 1TB M.2-2280 SSD PCIe 3.0x4 NVMe  |STORAGE       |  Although a basic Administrative workstation can run on a minimum of approximately 20gb SSD, I have chosen this SSD with 1tb due to its affordability and reliabilty. It is ideal for the everyday performance of an Admin workstation and holds more than enough space for documents, email data and business applications.     |
+|be quiet! Pure Power 13 M Black 550W Fully Modular 80+ Gold Certified    |POWER SUPPLY        |  the recommended 550w for an Administrative workstation and is Gold Certified, ensuring extra efficiency which ideal for reliability as the computer will need to be on throughout the day, performing important tasks such as responding to emails and queries and storing important data in a time effective manner. The PSU has a Semi-passive 120mm fan, useful for an Admin workstation which will typically spends its time at low to moderate load, meaning the fan can completely switch off at low loads. It is also an affordable component to the basic office hardware needed for an admin workstation     |
+|Logitech Optical USB Wired Optical Mouse   | MOUSE        | An appropriate basic office mouse, suitable for basic office hardware and an administrative workstation. It has a simple usb connection for an easy set up and is suitable for assisting in carrying out the roles of an office Admin, can be used comfortably with both hands and is affordable.      |
+| MSI PRO MP275 E2   | MONITOR |This affordable Monitor has a refresh rate of 120Hz, it reduces motion blur, providing better and smoother visuals and therefore is efficient for the everyday office tasks, such as multitasking and the use of various office applications. The IPS Panel offers colour accuracy and wide viewing angles. This is important to ensure that images and text remain vibrant and visable. |
+|HP 150 Wired Standard Keyboard| KEYBOARD|The keyboards USB-A connection is ideal for a quick and easy set up and is suitably priced for a basic office workstation set up. The keyboard has the appropriate LED indicators for functions such as Num Lock, Caps Lock and Scroll Lock and has silent keys, reducing distraction. |
+|Koss CS100 USB Closed-Back Headphones| Headphones|This headset is an appropriate component and is useful for Microsoft Teams calls, training videos and general verbal communication. It is easy to set up, with a USB connection and has a built in microphone. The microphone is specified from 100 Hz-16kHz which is ideal for clear speech. The Headphones have an adjustable headband and foam ear cushions, which ensures comfortability for prolonged use.  |
 
 
 
