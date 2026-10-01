@@ -1,4 +1,5 @@
-# ASSIGNMENT 1 DRAFT
+[code.sql](https://github.com/user-attachments/files/32907874/code.sql)# ASSIGNMENT 1 DRAFT
+## ADMINISTRATIVE ASSISTANT WORKSTATION
 
 ## COMPUTER BUILD IMG
 <img width="2400" height="1260" alt="New Build-share" src="https://github.com/user-attachments/assets/e508e2f4-6069-4ee5-bcfd-d48330b09cb5" />
@@ -28,7 +29,7 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=t
 |Mouse|[Logitech Optical USB Wired Optical Mouse](https://uk.buildcores.com/products/Mouse/hkuwzqh6d/Logitech-Optical-USB-Wired-Optical-Mouse)|[£5.99 (CCL)](https://ccl.pxf.io/c/2299452/1991091/24481?prodsku=MOU1844&u=https%3A%2F%2Fwww.cclonline.com%2F910-003357-logitech-b100-optical-usb-mouse-black-%2F&intsrc=CATF_16482)|
 |Mouse|[Logitech Optical USB Wired Optical Mouse](https://uk.buildcores.com/products/Mouse/hkuwzqh6d/Logitech-Optical-USB-Wired-Optical-Mouse)|[£5.99 (CCL)](https://ccl.pxf.io/c/2299452/1991091/24481?prodsku=MOU1844&u=https%3A%2F%2Fwww.cclonline.com%2F910-003357-logitech-b100-optical-usb-mouse-black-%2F&intsrc=CATF_16482)|
 | | | |
-|**Total Price**|**$595.83**|**Date of price check: 30/09/2026** |
+|**Total Price**|**£595.83**|**Date of price check: 30/09/2026** |
 |[BuildCores Web](https://uk.buildcores.com)|[BuildCores iOS](https://apps.apple.com/us/app/buildcores-part-picker-for-pc/id1441971434)|[BuildCores Android](https://play.google.com/store/apps/details?id=com.buildcores.buildcores&pcampaignid=web_share)|
 
 
@@ -54,6 +55,10 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=t
 
 
 ## SQL TABLES CREATED
+
+
+
+
 
 <img width="1918" height="935" alt="SQL Tables" src="https://github.com/user-attachments/assets/5d33eae0-1680-41a7-b4c9-ccbb372619b5" />
 
