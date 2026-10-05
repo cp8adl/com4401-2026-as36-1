@@ -64,6 +64,16 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=t
 
 
 
+## DATA ADDED INTO 'BuildItems' table
+
+<img width="1917" height="968" alt="DATA INTO BUILDITEMS 1" src="https://github.com/user-attachments/assets/f632acef-3852-40cc-b6bc-771242f6461b" />
+
+
+
+## DATA INSERTED INTO 'EMPLOYEE ROLES'
+<img width="1917" height="791" alt="image" src="https://github.com/user-attachments/assets/786bc11c-86db-4403-9e43-f98634653899" />
+
+
 
 ## QUERY 1. LIST EVERY ROLE
 ### *Show all columns for every row in the EmployeeRoles table*
@@ -88,17 +98,24 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=t
 <img width="1920" height="1031" alt="QUERY 4" src="https://github.com/user-attachments/assets/d6cfdddd-de9b-45e9-81d5-e0b7403d018c" />
 
 
+## QUERY 5. FIND ON BUILD'S ITEMS
+### *Show every item (component or peripheral) that belongs to build number 1*
+
+<img width="1920" height="941" alt="QUERY 5" src="https://github.com/user-attachments/assets/11d6290d-fa85-4a54-84f6-bd65baed30e0" />
+
+
+## QUERY 6. COUNT THE ITEMS IN A BUILD
+### *Count how many items are recorded for build number 1*
+
+<img width="1916" height="979" alt="QUERY 6" src="https://github.com/user-attachments/assets/b49cc9f4-2ae5-47dd-bd54-a1282e8d8b5f" />
+
+
+# PART B. TOTALS & SUMMARIES 
 
 
 
 
- 
 
 
-
-
-
-## DATA INSERTED INTO 'EMPLOYEE ROLES'
-<img width="1917" height="791" alt="image" src="https://github.com/user-attachments/assets/786bc11c-86db-4403-9e43-f98634653899" />
 
 
