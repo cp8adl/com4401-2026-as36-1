@@ -70,6 +70,12 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=t
 
 
 
+| 'CREATE TABLES' 'EmployeeRoles' DATA INTEGRITY:    |
+| :---        |
+|There are certain constraints throughout the code which maintains data integrity, for example, 'PRIMARY KEY' proceeding 'RoleID' means that there cannot be any duplicate values. 'INT' means that this must be in the form of a whole number; 'INT' meaning Integer. 'VARCHAR' meaning 'Variable Characters' shows that there is only an input of text allowed, to a maximum of 100 characters. The following 'NOT NULL' constraint provides and enforces data integrity and consistency by preventing unknown or missing data in columns. 'DEC (8,2)' often inputted in its longer form 'DECIMAL(8,2)' is a constraint which means a fixed-point exact numeric data type configured to store precise values. This is most commonly used for currency data or financial transactions. The commas in the SQL act as a checklist, meaning that they tell SQL that one column is finished, another is yet to come. This is similar to a sentence, where the commas split up different parts of the sentence making it clear and easy to understand. The semicolon tells the SQL where 
+
+
+
 ## DATA ADDED INTO 'BuildItems' table
 
 <img width="1917" height="968" alt="DATA INTO BUILDITEMS 1" src="https://github.com/user-attachments/assets/f632acef-3852-40cc-b6bc-771242f6461b" />
