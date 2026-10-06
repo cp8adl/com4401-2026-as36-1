@@ -149,7 +149,7 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=t
 
 <img width="1920" height="976" alt="QUERY 9" src="https://github.com/user-attachments/assets/b6d28151-7b97-4a80-b66d-fcf88b86ebba" />
 
-| DATA INTEGRITY WITH 'JOINs'      |
+| DATA INTEGRITY: QUERY 9     |
 | :---        |
 | SQL uses 'JOINs' to connect and combine data from tables horizontally into a single database result. The first JOIN 'JOIN workstationBuilds b ON r.RoleID = b.RoleID' connects the two tables 'EmployeeRoles to workstationBuilds'. 'ON' is a clause used to specify the JOIN condition. 'ON r.RoleID = b.RoleID tells SQL to only connect a workstation build to an employee role when their RoleID values match. This means with SQL the tables have been connected whilst specifying how the tables are related. This helps produce accurate and consistent query results. |
 
@@ -158,6 +158,10 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=t
 
 <img width="1920" height="988" alt="QUERY 10" src="https://github.com/user-attachments/assets/bad6bffc-2e38-43d2-8582-e3905e57f8d5" />
 
+
+| DATA INTEGRITY: QUERY 10    |
+| :---        |
+|Using this JOIN constraint, we have been able to link the three tables 'r', 'b' and 'i'. These letters are aliases used as a shortcut so the names of the tables dont have to be typed out. The first JOIN establishes the relationship between EmployeeRoles (.r) and workstationBuilds (.b) with the 'PRIMARY KEY' AND 'FOREIGN KEY' being 'RoleID'. a primary key is a column or combination of columns which uniquely identiifies each record in a column. this is important as it maintains integrity as it ensures that no duplicate values exist in the key columns. The foreign key is a field in another table which refers back to the primary key in the previous. The second JOIN continues the relationship into the 'BuildItems' table.|
 
 
 ## QUERY 11. SPEND PER ROLE (CHALLENGE)
