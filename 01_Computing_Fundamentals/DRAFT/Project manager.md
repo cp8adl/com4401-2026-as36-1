@@ -48,8 +48,8 @@ The AMD Ryzen 7 5700 was selected because its 8 cores and 16 threads provide suf
 
 
 
-Data inserted into build items on SQL
-<img width="1476" height="417" alt="image" src="https://github.com/user-attachments/assets/d679058e-904e-4653-bfdd-09c8bd96443a" />
+# Data inserted into build items on SQL
+# <img width="1476" height="417" alt="image" src="https://github.com/user-attachments/assets/d679058e-904e-4653-bfdd-09c8bd96443a" />
 
 
 
