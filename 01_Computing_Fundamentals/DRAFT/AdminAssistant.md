@@ -1,6 +1,11 @@
 [code.sql](https://github.com/user-attachments/files/32907874/code.sql)# ASSIGNMENT 1 DRAFT
 ## ADMINISTRATIVE ASSISTANT WORKSTATION
 
+## THINGS STILL TO DO:
+1. CHECK BUILD CORES PRICE LIST.
+2. EXPLAIN YOUR CODE WITH EACH QUERY
+3. CHECK IF PERIPHERALS HAVE BEEN ADDED
+
 ## COMPUTER BUILD IMG
 <img width="2400" height="1260" alt="New Build-share" src="https://github.com/user-attachments/assets/e508e2f4-6069-4ee5-bcfd-d48330b09cb5" />
 
@@ -98,7 +103,7 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=t
 <img width="1920" height="1031" alt="QUERY 4" src="https://github.com/user-attachments/assets/d6cfdddd-de9b-45e9-81d5-e0b7403d018c" />
 
 
-## QUERY 5. FIND ON BUILD'S ITEMS
+## QUERY 5. FIND ONE BUILD'S ITEMS
 ### *Show every item (component or peripheral) that belongs to build number 1*
 
 <img width="1920" height="941" alt="QUERY 5" src="https://github.com/user-attachments/assets/11d6290d-fa85-4a54-84f6-bd65baed30e0" />
@@ -111,6 +116,38 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=t
 
 
 # PART B. TOTALS & SUMMARIES 
+
+## QUERY 7. TOTAL COST OF ONE BUILD
+### *Add up the cost of every item in build number 1 to get its total hardware cost.*
+
+<img width="1920" height="945" alt="QUERY 7" src="https://github.com/user-attachments/assets/1b589bc0-6ac1-40d1-ae5d-217b8c2bceb2" />
+
+
+
+## QUERY 8. COST OF EVERY BUILD
+### *Show the total cost of each build, most expensive first.*
+#### *Other members of the team are yet to fill in their part of the .SQL*
+
+# PART C. ACROSS TABLES WITH JOINs
+
+## QUERY 9. WHICH ROLE IS EACH BUILD FOR?
+### *Show each build's name next to the name of the role it belongs to. The build's role name lives in a different table, so you must JOIN.*
+
+<img width="1920" height="976" alt="QUERY 9" src="https://github.com/user-attachments/assets/b6d28151-7b97-4a80-b66d-fcf88b86ebba" />
+
+## QUERY 10. ITEMS WITH THEIR BUILD AND ROLE
+### *For every item, show the item name, which build it is in, and which role that build is for. This links three tables together.*
+
+<img width="1920" height="988" alt="QUERY 10" src="https://github.com/user-attachments/assets/bad6bffc-2e38-43d2-8582-e3905e57f8d5" />
+
+
+
+## QUERY 11. SPEND PER ROLE (CHALLENGE)
+### *Show the total hardware cost grouped by role name — how much each role's builds add up to. Combines a JOIN with SUM and GROUP BY.*
+
+
+
+
 
 
 
