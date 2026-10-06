@@ -7,6 +7,11 @@
 3. CHECK IF PERIPHERALS HAVE BEEN ADDED
 4. ADD NOT NULLS AND LOOK AT THE EXPLAINING DATA INTEGRITY.
 
+
+| Administrative Assistant (Job role and how this affects the workstation build      |
+| :---        |
+| The typical roles of an administrative assistant include safely securing sensitive data, taking and answering phone calls, managing emails, updating records and calendar management. Because of this, an Admin Assistant will typically need a basic office hardware workstation. This is a PC that typically only requires the use of lightweight software applications, such as Google Workspace or Microsoft Office 365. The PC will also most likely have Cloud-Based Workflows, rather than most information being stored locally. In connection with the standard office Duties of an Admin Assistant, basic communication tools will suffice, for example, Microsoft Teams and Zoom. These applications run efficiently on entry level processors and PCs with the standard amounts of RAM available like 8GB or 16GB|  |
+
 ## COMPUTER BUILD IMG
 <img width="2400" height="1260" alt="New Build-share" src="https://github.com/user-attachments/assets/e508e2f4-6069-4ee5-bcfd-d48330b09cb5" />
 
@@ -37,7 +42,6 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=t
 | | | |
 |**Total Price**|**£595.83**|**Date of price check: 30/09/2026** |
 |[BuildCores Web](https://uk.buildcores.com)|[BuildCores iOS](https://apps.apple.com/us/app/buildcores-part-picker-for-pc/id1441971434)|[BuildCores Android](https://play.google.com/store/apps/details?id=com.buildcores.buildcores&pcampaignid=web_share)|
-
 
 
 
