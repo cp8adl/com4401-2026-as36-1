@@ -62,10 +62,6 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=t
 
 ## SQL TABLES CREATED
 
-
-
-
-
 <img width="1918" height="935" alt="SQL Tables" src="https://github.com/user-attachments/assets/5d33eae0-1680-41a7-b4c9-ccbb372619b5" />
 
 
@@ -77,7 +73,14 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=t
 
 
 ## DATA INSERTED INTO 'EMPLOYEE ROLES'
+
 <img width="1917" height="791" alt="image" src="https://github.com/user-attachments/assets/786bc11c-86db-4403-9e43-f98634653899" />
+
+
+## DATA INSERTED INTO 'RECOMMENDATIONS'
+
+<img width="1916" height="940" alt="RECOMMENDATIONS TABLE" src="https://github.com/user-attachments/assets/0d99a02a-392e-4846-ba39-5fc997a2632b" />
+
 
 
 
