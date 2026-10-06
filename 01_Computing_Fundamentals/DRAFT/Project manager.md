@@ -46,6 +46,13 @@ The AMD Ryzen 7 5700 was selected because its 8 cores and 16 threads provide suf
 
 # |Motherboard – ASUS PRIME B550-PLUS| The ASUS PRIME B550-PLUS is an ATX motherboard supporting AMD Ryzen processors on the AM4 platform. It provides four DDR4 memory slots, two M.2 slots, six SATA ports and integrated 1 Gb Ethernet
 
+
+
+Data inserted into build items on SQL
+<img width="1476" height="417" alt="image" src="https://github.com/user-attachments/assets/d679058e-904e-4653-bfdd-09c8bd96443a" />
+
+
+
 # Justification
 The ASUS PRIME B550-PLUS was selected because it provides compatibility with the Ryzen 7 5700 and offers sufficient expansion capability for a business workstation. It supports up to 128 GB of DDR4 memory, two M.2 storage devices and six SATA devices. It also includes integrated 1 Gb Ethernet, providing reliable wired network connectivity. This gives the organisation opportunities for future upgrades without requiring an immediate replacement of the motherboard. 
 
