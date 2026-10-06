@@ -149,6 +149,10 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=t
 
 <img width="1920" height="976" alt="QUERY 9" src="https://github.com/user-attachments/assets/b6d28151-7b97-4a80-b66d-fcf88b86ebba" />
 
+| DATA INTEGRITY WITH 'JOINs'      |
+| :---        |
+| SQL uses 'JOINs' to connect and combine data from tables horizontally into a single database result. The first JOIN 'JOIN workstationBuilds b ON r.RoleID = b.RoleID' connects the two tables 'EmployeeRoles to workstationBuilds'. 'ON' is a clause used to specify the JOIN condition. 'ON r.RoleID = b.RoleID tells SQL to only connect a workstation build to an employee role when their RoleID values match. This means with SQL the tables have been connected whilst specifying how the tables are related. This helps produce accurate and consistent query results. |
+
 ## QUERY 10. ITEMS WITH THEIR BUILD AND ROLE
 ### *For every item, show the item name, which build it is in, and which role that build is for. This links three tables together.*
 
