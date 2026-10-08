@@ -3,7 +3,7 @@
 
 ## THINGS STILL TO DO:
 2. EXPLAIN YOUR CODE WITH EACH QUERY
-3. complete query 8 & 11
+3. complete query  11
 4. DO THE LAST OF THE QUERYS
 
 
@@ -124,12 +124,19 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=t
 
 <img width="1910" height="918" alt="QUERY 2" src="https://github.com/user-attachments/assets/4000cf5b-5ae2-4454-8777-3e8bdfedc7e8" />
 
+| DATA INTEGRITY: QUERY 2:    |
+| :---        |
+|The command 'SELECT RoleNames, HardwareBudget FROM EmployeeRoles;' retrieves records from only those columns selected. This shows that select parts of data can be pulled from the database upon request. This query helps check the integrity of the data inserted into the RoleNames and HardwareBudget comlumns'|
+
 
 ## QUERY 3. THE HIGHER-BUDGET ROLES
 ### *List the role name and budget for only the roles with a budget over £1000 per workstation*
 
 <img width="1920" height="936" alt="QUERY 3" src="https://github.com/user-attachments/assets/1f8a8ef2-5a8c-410f-a0f8-817e1c63eb1d" />
 
+| DATA INTEGRITY: QUERY 3:    |
+| :---        |
+|WHERE HardwareBudget > 1000 filters the results so that only budgets above 1000 are retrieved; '>' simply means 'Greater than'. The query itself does not alter the data inserted into the table but supports the integrity of the data by checking that the hardware budget values are within the expected range. This query shows that you can identify and retrieve the higher budget values upon command. 'WHERE' simply tells the SQL which rows you want to retrieve the data from.|
 
 
 ## QUERY 4. ROLES BY TEAM SIZE
