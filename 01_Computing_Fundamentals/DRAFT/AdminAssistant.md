@@ -3,6 +3,9 @@
 
 ## THINGS STILL TO DO:
 2. EXPLAIN YOUR CODE WITH EACH QUERY
+3. complete query 8 & 11
+4. DO THE LAST OF THE QUERYS
+5. HIGHLIGHT THE SNIPS
 
 
 | Administrative Assistant (Job role and how this affects the workstation build      |
