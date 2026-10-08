@@ -16,10 +16,10 @@
 | Section / theme | Responsible member(s) | Draft ready by |
 |-----------------|-----------------------|----------------|
 | Section 1: Password hygiene | | |
-| Section 2: Two-factor authentication | | |
-| Section 3: Phishing recognition | | |
-| Section 4: Safe use of devices | | |
-| Section 5: Public Wi-Fi | | |
+| Section 2: Two-factor authentication |Cerys | |
+| Section 3: Phishing recognition |Princess | |
+| Section 4: Safe use of devices |Ezekiel | |
+| Section 5: Public Wi-Fi |Godstime | |
 | Introduction & conclusion (whole team) | | |
 | Contents page & reference list (compile last) | | |
 
