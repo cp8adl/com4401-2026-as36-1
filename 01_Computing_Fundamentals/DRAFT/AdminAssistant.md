@@ -155,8 +155,9 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=t
 <img width="1920" height="941" alt="QUERY 5" src="https://github.com/user-attachments/assets/11d6290d-fa85-4a54-84f6-bd65baed30e0" />
 
 
-## QUERY 6. COUNT THE ITEMS IN A BUILD
-### *Count how many items are recorded for build number 1*
+ DATA INTEGRITY: QUERY 6:    |
+| :---        |
+|COUNT (*) counts the rows recorded for build number 1. As ItemCount gives the result a clear column heading. Comparing this count with the expected number of items can help identify missing or extra records. The query counts row; it does not detect duplicates or count quantities stored within a row.|
 
 <img width="1916" height="979" alt="QUERY 6" src="https://github.com/user-attachments/assets/b49cc9f4-2ae5-47dd-bd54-a1282e8d8b5f" />
 
