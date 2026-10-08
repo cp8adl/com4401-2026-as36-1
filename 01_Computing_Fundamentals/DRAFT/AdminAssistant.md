@@ -175,7 +175,15 @@ This helps check the build's total against it's budget. Using DECIMAL (8,2), NOT
 
 ## QUERY 8. COST OF EVERY BUILD
 ### *Show the total cost of each build, most expensive first.*
-#### *Other members of the team are yet to fill in their part of the .SQL*
+
+<img width="1920" height="934" alt="QUERY 8" src="https://github.com/user-attachments/assets/1c29bf06-8b8c-4961-a9bb-38bd3a28627a" />
+
+
+| DATA INTEGRITY: QUERY 8:    |
+| :---        |
+|This query is asking for the total cost of each component to be calculated and retrieved as a total cost of each complete build. SUM(Cost) adds the cost of each component together. 'AS TotalCost' gives the calculated result the name 'TotalCost'. This means that when the query 'SUM(Cost) AS TotalCost' is inputted, it is asking the SQL to give the 'SUM(Cost)' the new title 'TotalCost'.
+'DESC' means descending so that the highest total comes first. 'GROUP BY BuildID' in the query just means that the information retreived and grouped, is each beloning to an individual BuildID. For example, BuildID 1 has many components but in this query the cost of each part has been calculated together.|
+
 
 # PART C. ACROSS TABLES WITH JOINs
 
