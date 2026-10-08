@@ -113,6 +113,10 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=t
 
 <img width="1919" height="936" alt="QUERY 1" src="https://github.com/user-attachments/assets/0f65c264-23ab-4302-929f-9fbc04debfb1" />
 
+| DATA INTEGRITY: QUERY 1:    |
+| :---        |
+|'Show * FROM EmployeeRoles is a command where '*' means 'everything'. This command retrieves all of the data and columns from the table|
+
 
 
 ## QUERY 2. JUST THE NAMES AND BUDGET
