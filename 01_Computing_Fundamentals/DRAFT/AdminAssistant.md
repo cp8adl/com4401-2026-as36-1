@@ -148,8 +148,9 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=t
 
 
 
-## QUERY 5. FIND ONE BUILD'S ITEMS
-### *Show every item (component or peripheral) that belongs to build number 1*
+| DATA INTEGRITY: QUERY 5:    |
+| :---        |
+|SELECT * retrieves every column, while Where BuildID = 1 returns only items belonging to build number 1. This helps check which items have been recorded for that build. A foreign key linking BuildItems.BuildID to WorkstationBuilds.BuildID ensures that each item refers to an existing build.|
 
 <img width="1920" height="941" alt="QUERY 5" src="https://github.com/user-attachments/assets/11d6290d-fa85-4a54-84f6-bd65baed30e0" />
 
