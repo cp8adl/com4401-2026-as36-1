@@ -2,10 +2,7 @@
 ## ADMINISTRATIVE ASSISTANT WORKSTATION
 
 ## THINGS STILL TO DO:
-1. CHECK BUILD CORES PRICE LIST.
 2. EXPLAIN YOUR CODE WITH EACH QUERY
-3. CHECK IF PERIPHERALS HAVE BEEN ADDED
-4. ADD NOT NULLS AND LOOK AT THE EXPLAINING DATA INTEGRITY.
 
 
 | Administrative Assistant (Job role and how this affects the workstation build      |
@@ -64,9 +61,24 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=t
 
 
 
+
+
+
 ## SQL TABLES CREATED
 
-<img width="1918" height="935" alt="SQL Tables" src="https://github.com/user-attachments/assets/5d33eae0-1680-41a7-b4c9-ccbb372619b5" />
+<img width="1919" height="989" alt="TABLES CREATED" src="https://github.com/user-attachments/assets/23e94d92-6d27-4aaa-a360-2cf8932b08a0" />
+
+## *Program did not output anything! Indicates there are no errors in the SQL*
+
+
+
+
+
+
+
+
+
+
 
 
 
