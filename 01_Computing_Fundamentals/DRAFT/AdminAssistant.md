@@ -199,8 +199,10 @@ This helps check the build's total against it's budget. Using DECIMAL (8,2), NOT
 |Using this JOIN constraint, we have been able to link the three tables 'r', 'b' and 'i'. These letters are aliases used as a shortcut so the names of the tables dont have to be typed out. The first JOIN establishes the relationship between EmployeeRoles (.r) and workstationBuilds (.b) with the 'PRIMARY KEY' AND 'FOREIGN KEY' being 'RoleID'. a primary key is a column or combination of columns which uniquely identiifies each record in a column. this is important as it maintains integrity as it ensures that no duplicate values exist in the key columns. The foreign key is a field in another table which refers back to the primary key in the previous. The second JOIN continues the relationship into the 'BuildItems' table.|
 
 
-## QUERY 11. SPEND PER ROLE (CHALLENGE)
-### *Show the total hardware cost grouped by role name — how much each role's builds add up to. Combines a JOIN with SUM and GROUP BY.*
+| DATA INTEGRITY: QUERY 11:    |
+| :---        |
+|The first JOIN connects each role to its workstation builds using RoleID. The second connects those builds to their items using BuildID.SUM(i.Cost) calculates the combined item cost for each role.
+Grouping by both RoleID and RoleNames keeps separate roles distinct even if they share a name. Primary and foreign key constraints maintain these relationships; the joins use them to produce the results. This query includes only roles with builds containing recorded items.|
 
 <img width="1903" height="922" alt="QUERY 11" src="https://github.com/user-attachments/assets/2ed26c0c-d542-41e7-b5c9-b371824f5d97" />
 
