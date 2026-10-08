@@ -139,8 +139,10 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=t
 |WHERE HardwareBudget > 1000 filters the results so that only budgets above 1000 are retrieved; '>' simply means 'Greater than'. The query itself does not alter the data inserted into the table but supports the integrity of the data by checking that the hardware budget values are within the expected range. This query shows that you can identify and retrieve the higher budget values upon command. 'WHERE' simply tells the SQL which rows you want to retrieve the data from.|
 
 
-## QUERY 4. ROLES BY TEAM SIZE
-### *List the roles and how many staff each has, with the largest teams first*
+| DATA INTEGRITY: QUERY 4:    |
+| :---        |
+|This query retrieves each role's name and StaffCount DESC sorts the results from the largest team to the smallest. It can help identify unexpected staff counts, but it does not change or enforce the integrity of the stored data.  An integer data type and a CHECK
+(StaffCount >= 0) constraint would prevent invalid staff counts.|
 
 <img width="1918" height="938" alt="QUERY 4" src="https://github.com/user-attachments/assets/4047cd5d-cef0-4841-9dbb-75dfdce42785" />
 
