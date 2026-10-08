@@ -5,7 +5,7 @@
 
 | | |
 |---|---|
-| **Team name** | |
+| **Team name** | CPEG|
 | **Repository** | |
 | **Submission date** | Friday 23 October 2026 |
 | **How we'll keep in touch** | *(e.g. group chat, weekly check-in)* |
@@ -16,10 +16,10 @@
 
 | Member | Stage / area owned | What they'll deliver |
 |--------|--------------------|----------------------|
-| | Analysis | Requirements list and IPO (Input–Process–Output) chart |
-| | Design | Flowchart / pseudocode and test plan design |
-| | Build | Working Flowgorithm solution matching the design |
-| | Testing | Test table run with normal, abnormal and extreme data |
+|Cerys | Analysis | Requirements list and IPO (Input–Process–Output) chart |
+|Ezekiel | Design | Flowchart / pseudocode and test plan design |
+|Princess | Build | Working Flowgorithm solution matching the design |
+|Godstime | Testing | Test table run with normal, abnormal and extreme data |
 
 > Add or remove a row for a 3- or 5-person team. The build should follow the agreed design, and the test data should be decided *before* coding, not after. Shared tasks (deployment notes, final walkthrough, ethics/professional write-up) can be added as extra rows.
 
@@ -29,7 +29,7 @@
 
 R = Responsible · A = Accountable · C = Consulted · I = Informed
 
-| Task | Member 1 | Member 2 | Member 3 | Member 4 |
+| Task | Cerys | Ezekiel | Princess | Godstime |
 |------|----------|----------|----------|----------|
 | Requirements analysis (what the program must do) | | | | |
 | IPO chart (Input – Process – Output) | | | | |
