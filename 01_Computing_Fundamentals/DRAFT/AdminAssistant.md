@@ -196,7 +196,7 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=t
 ## QUERY 11. SPEND PER ROLE (CHALLENGE)
 ### *Show the total hardware cost grouped by role name — how much each role's builds add up to. Combines a JOIN with SUM and GROUP BY.*
 
-
+<img width="1903" height="922" alt="QUERY 11" src="https://github.com/user-attachments/assets/2ed26c0c-d542-41e7-b5c9-b371824f5d97" />
 
 
 
