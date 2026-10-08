@@ -1,10 +1,9 @@
 [code.sql](https://github.com/user-attachments/files/32907874/code.sql)# ASSIGNMENT 1 DRAFT
 ## ADMINISTRATIVE ASSISTANT WORKSTATION
 
-## THINGS STILL TO DO:
-2. EXPLAIN YOUR CODE WITH EACH QUERY
-3. complete query  11
-4. DO THE LAST OF THE QUERYS
+# THINGS STILL TO DO:
+*ad everybodies build pciture and price list*
+*explain the roles of the jobs and why it affects the build.*
 
 
 | Administrative Assistant (Job role and how this affects the workstation build      |
@@ -75,6 +74,10 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=t
 
 
 
+# THE TABLES AND THEIR RELATIONSHIPS
+
+
+<img width="1681" height="939" alt="DRAW SQL" src="https://github.com/user-attachments/assets/5fbab424-b0b3-4e1b-a9e2-16de631afecd" />
 
 
 
@@ -139,20 +142,32 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=t
 |WHERE HardwareBudget > 1000 filters the results so that only budgets above 1000 are retrieved; '>' simply means 'Greater than'. The query itself does not alter the data inserted into the table but supports the integrity of the data by checking that the hardware budget values are within the expected range. This query shows that you can identify and retrieve the higher budget values upon command. 'WHERE' simply tells the SQL which rows you want to retrieve the data from.|
 
 
+## QUERY 4. ROLES BY TEAM SIZE ##
+### *List the roles and how many staff each has, with the largest teams first*
+
+<img width="1918" height="938" alt="QUERY 4" src="https://github.com/user-attachments/assets/4047cd5d-cef0-4841-9dbb-75dfdce42785" />
+
+
 | DATA INTEGRITY: QUERY 4:    |
 | :---        |
 |This query retrieves each role's name and StaffCount DESC sorts the results from the largest team to the smallest. It can help identify unexpected staff counts, but it does not change or enforce the integrity of the stored data.  An integer data type and a CHECK
 (StaffCount >= 0) constraint would prevent invalid staff counts.|
 
-<img width="1918" height="938" alt="QUERY 4" src="https://github.com/user-attachments/assets/4047cd5d-cef0-4841-9dbb-75dfdce42785" />
+## QUERY 5. FIND ONE BUILD'S ITEMS
+### *Show every item (component or peripheral) that belongs to build number 1*
 
-
+<img width="1920" height="941" alt="QUERY 5" src="https://github.com/user-attachments/assets/11d6290d-fa85-4a54-84f6-bd65baed30e0" />
 
 | DATA INTEGRITY: QUERY 5:    |
 | :---        |
 |SELECT * retrieves every column, while Where BuildID = 1 returns only items belonging to build number 1. This helps check which items have been recorded for that build. A foreign key linking BuildItems.BuildID to WorkstationBuilds.BuildID ensures that each item refers to an existing build.|
 
-<img width="1920" height="941" alt="QUERY 5" src="https://github.com/user-attachments/assets/11d6290d-fa85-4a54-84f6-bd65baed30e0" />
+
+
+## QUERY 6. COUNT THE ITEMS IN A BUILD
+### *Count how many items are recorded for build number 1*
+
+<img width="1916" height="979" alt="QUERY 6" src="https://github.com/user-attachments/assets/b49cc9f4-2ae5-47dd-bd54-a1282e8d8b5f" />
 
 
  DATA INTEGRITY: QUERY 6:    |
@@ -164,12 +179,15 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=t
 
 # PART B. TOTALS & SUMMARIES 
 
+## QUERY 7. TOTAL COST OF ONE BUILD
+### *Show the total cost of each build, most expensive first*
+
+<img width="1920" height="945" alt="QUERY 7" src="https://github.com/user-attachments/assets/1b589bc0-6ac1-40d1-ae5d-217b8c2bceb2" />
+
 | DATA INTEGRITY: QUERY 7:    |
 | :---        |
 |SUM(Cost) adds the recorded cost of all items belonging to build number 1. AS TotalHardwareCost labels the result.
 This helps check the build's total against it's budget. Using DECIMAL (8,2), NOT NULL, and CHECK (Cost >= 0) for the cost column supports accurate currency values and prevents missing or negative costs. SUM ignores NULL values.|
-
-<img width="1920" height="945" alt="QUERY 7" src="https://github.com/user-attachments/assets/1b589bc0-6ac1-40d1-ae5d-217b8c2bceb2" />
 
 
 
@@ -205,6 +223,18 @@ This helps check the build's total against it's budget. Using DECIMAL (8,2), NOT
 | DATA INTEGRITY: QUERY 10    |
 | :---        |
 |Using this JOIN constraint, we have been able to link the three tables 'r', 'b' and 'i'. These letters are aliases used as a shortcut so the names of the tables dont have to be typed out. The first JOIN establishes the relationship between EmployeeRoles (.r) and workstationBuilds (.b) with the 'PRIMARY KEY' AND 'FOREIGN KEY' being 'RoleID'. a primary key is a column or combination of columns which uniquely identiifies each record in a column. this is important as it maintains integrity as it ensures that no duplicate values exist in the key columns. The foreign key is a field in another table which refers back to the primary key in the previous. The second JOIN continues the relationship into the 'BuildItems' table.|
+
+
+
+
+
+## QUERY 11 SPEND PER ROLE
+### *Show the total hardware cost grouped by role name - how much each role's builds add up to. Combines a JOIN with SUM and GROUP BY.
+
+
+<img width="1903" height="922" alt="QUERY 11" src="https://github.com/user-attachments/assets/2ed26c0c-d542-41e7-b5c9-b371824f5d97" />
+
+
 
 
 | DATA INTEGRITY: QUERY 11:    |
