@@ -164,8 +164,10 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=t
 
 # PART B. TOTALS & SUMMARIES 
 
-## QUERY 7. TOTAL COST OF ONE BUILD
-### *Add up the cost of every item in build number 1 to get its total hardware cost.*
+| DATA INTEGRITY: QUERY 7:    |
+| :---        |
+|SUM(Cost) adds the recorded cost of all items belonging to build number 1. AS TotalHardwareCost labels the result.
+This helps check the build's total against it's budget. Using DECIMAL (8,2), NOT NULL, and CHECK (Cost >= 0) for the cost column supports accurate currency values and prevents missing or negative costs. SUM ignores NULL values.|
 
 <img width="1920" height="945" alt="QUERY 7" src="https://github.com/user-attachments/assets/1b589bc0-6ac1-40d1-ae5d-217b8c2bceb2" />
 
