@@ -5,7 +5,6 @@
 2. EXPLAIN YOUR CODE WITH EACH QUERY
 3. complete query 8 & 11
 4. DO THE LAST OF THE QUERYS
-5. HIGHLIGHT THE SNIPS
 
 
 | Administrative Assistant (Job role and how this affects the workstation build      |
@@ -112,24 +111,28 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=t
 ## QUERY 1. LIST EVERY ROLE
 ### *Show all columns for every row in the EmployeeRoles table*
 
-<img width="1920" height="1028" alt="QUERY 1" src="https://github.com/user-attachments/assets/81357edd-fdd5-4be9-8f66-db98b111e8b5" />
+<img width="1919" height="936" alt="QUERY 1" src="https://github.com/user-attachments/assets/0f65c264-23ab-4302-929f-9fbc04debfb1" />
+
 
 
 ## QUERY 2. JUST THE NAMES AND BUDGET
 ### *Show only the role name and the budget for every role*
 
-<img width="1919" height="1030" alt="QUERY 2" src="https://github.com/user-attachments/assets/97c21b4a-8ecc-4fd8-aeb2-b9ad1320d2d1" />
+<img width="1910" height="918" alt="QUERY 2" src="https://github.com/user-attachments/assets/4000cf5b-5ae2-4454-8777-3e8bdfedc7e8" />
+
 
 ## QUERY 3. THE HIGHER-BUDGET ROLES
 ### *List the role name and budget for only the roles with a budget over £1000 per workstation*
 
-<img width="1920" height="1028" alt="QUERY 3" src="https://github.com/user-attachments/assets/6577270b-0f07-4a1d-8fe9-8f91d28160c9" />
+<img width="1920" height="936" alt="QUERY 3" src="https://github.com/user-attachments/assets/1f8a8ef2-5a8c-410f-a0f8-817e1c63eb1d" />
+
 
 
 ## QUERY 4. ROLES BY TEAM SIZE
 ### *List the roles and how many staff each has, with the largest teams first*
 
-<img width="1920" height="1031" alt="QUERY 4" src="https://github.com/user-attachments/assets/d6cfdddd-de9b-45e9-81d5-e0b7403d018c" />
+<img width="1918" height="938" alt="QUERY 4" src="https://github.com/user-attachments/assets/4047cd5d-cef0-4841-9dbb-75dfdce42785" />
+
 
 
 ## QUERY 5. FIND ONE BUILD'S ITEMS
