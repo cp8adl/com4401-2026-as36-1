@@ -114,8 +114,9 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=t
 
 ## *3D Visualisation Specialist Workstation.*
 
-| 3D Visualisation Specialist job role and how this affects the workstation build      |
+| 3D Visualisation Specialist Job role and how this affects the workstation build      |
 | :---        |
+|the main job roles of a 3D Visualisation Specialists are 3D animation, editing, rendering, using high-resolution textures, media output and the creating of client visual presentations. Considering this, a high-performance rendering/visualisation hardware workstation is necessary. a modern AMD Ryzen cpu or Intel core ultra CPU would be ideal for editing projects and running 3D software. A powerful GPU is also important, especially for displaying complex models and GPU based rendering. 32GB of RAM would be ideal as a starting point with 64GB or more for the more complex projects. |
 
 ## 3D VISUALISATION SPECIALIST WORKSTATION BUILD.
 
