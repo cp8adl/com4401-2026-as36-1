@@ -64,7 +64,7 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=t
 | :---        |
 
 ## PROJECT MANAGER WORKSTATION BUILD.
-### *ADD BUILD IMAGE HERE*
+### *(Insert image here)*
 
 
 ## PROJECT MANAGER WORKSTATION BUILDCORES PARTS LIST.
@@ -121,10 +121,36 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=t
 <img width="1062" height="783" alt="3D Visualisation Specialist build" src="https://github.com/user-attachments/assets/704abd2b-6878-4f90-8ee5-b82902f8bb2d" />
 
 
-## ADMINISTRATIVE ASSISTANT WORKSTATION BUILDCORES COST TABLE.
+## 3D VISUALISATION SPECIALIST WORKSTATION BUILDCORES COST TABLE.
+
+[Link](https://uk.buildcores.com/builds/yI_w_lS05?share=true)
+
+ 
+|**Component**|**Title**|**Price**|
+|:-|:-|:-|
+|Case|[Montech X5 ATX Mid Tower White with Tempered Glass Side Panel](https://uk.buildcores.com/products/PCCase/gzgeqtnat/Montech-X5-ATX-Mid-Tower-White-with-Tempered-Glass-Side-Panel)|[£49.99 (ScanComputer)](https://www.awin1.com/cread.php?awinmid=15473&awinaffid=743627&ued=https%3A%2F%2Fwww.scan.co.uk%2Fproducts%2Fmontech-x5-white-atx-chassis-w-tempered-glass-4-x-argb-fans-usb-30-e-atx-atx-matx-mitx)|
+|CPU|[AMD Ryzen Threadripper 7960X](https://uk.buildcores.com/products/CPU/flnl9nirk/AMD-Ryzen-Threadripper-7960X)|[£1,139.99 (ScanComputer)](https://www.awin1.com/cread.php?awinmid=15473&awinaffid=743627&ued=https%3A%2F%2Fwww.scan.co.uk%2Fproducts%2Famd-ryzen-threadripper-7960x-tr5-zen-4-24-core-48-thread-42ghz-53ghz-152mb-cache-pcie-50-350w-cpu)|
+|Motherboard|[GIGABYTE TRX50 AI TOP sTR5 DDR5 E-ATX](https://uk.buildcores.com/products/Motherboard/izpbu1sry/GIGABYTE-TRX50-AI-TOP-sTR5-DDR5-E-ATX)|[£89.99(Amazon)](https://www.amazon.co.uk/dp/B0DFHQVCBV?tag=buildcoresx-21&linkCode=ogi&th=1&psc=1)|
+|GPU|[XFX Swift AMD Radeon RX 9060 XT OC Gaming Edition 16GB GDDR6](https://uk.buildcores.com/products/GPU/3fdo39m6a/XFX-Swift-AMD-Radeon-RX-9060-XT-OC-Gaming-Edition-16GB-GDDR6)|[£449.99 (Overclockers)](https://www.awin1.com/cread.php?awinmid=28821&awinaffid=743627&campaign=BuildCores&ued=https%3A%2F%2Fwww.overclockers.co.uk%2Fxfx-swift-radeon-9060-xt-gaming-oc-dual-fan-16gb-gddr6-pci-express-graphics-gra-xfx-05433.html)|
+|RAM|[V-Color ECC Registered DIMM 128GB (4x32GB) DDR5 6000 CL32 Black](https://uk.buildcores.com/products/RAM/g1uriwo3s/V-Color-ECC-Registered-DIMM-128GB-(4x32GB)-DDR5-6000-CL32-Black)|[£120.00](https://www.amazon.co.uk/dp/B0CQJKLQPV?tag=buildcoresx-21&linkCode=ogi&th=1&psc=1)|
+|CPU Cooler|[Arctic Liquid Freezer WS360-SP6 Black](https://uk.buildcores.com/products/CPUCooler/z8tkwcows/Arctic-Liquid-Freezer-WS360-SP6-Black)|[£110.49 (Amazon)](https://www.amazon.co.uk/dp/B0FVXP5JPK?tag=buildcoresx-21&linkCode=ogi&th=1&psc=1)|
+|Storage|[Kingston NV3 PCIe 4.0 NVMe SSD 2280 1TB](https://uk.buildcores.com/products/Storage/z5cannwxb/Kingston-NV3-PCIe-4.0-NVMe-SSD-2280-1TB)|[£128.99 (CCL)](https://ccl.pxf.io/c/2299452/1991091/24481?prodsku=SSD1809&u=https%3A%2F%2Fwww.cclonline.com%2Fsnv3s-1000g-1tb-kingston-nv3-m-2-2280-pci-express-4-0-x4-nvme-solid-state-drive-456874%2F&intsrc=CATF_16482)|
+|Power Supply|[Asus TUF Gaming 1000G White 1000W Fully Modular 80+ Gold](https://uk.buildcores.com/products/PSU/jxbxkz66z/Asus-TUF-Gaming-1000G-White-1000W-Fully-Modular-80%2B-Gold)|[£122.99 (CCL)](https://ccl.pxf.io/c/2299452/1991091/24481?prodsku=PSU2485&u=https%3A%2F%2Fwww.cclonline.com%2F90ye00s5-b0na00-1000w-asus-tuf-gaming-modular-80-plus-gold-psu%2F&intsrc=CATF_16482)|
+|Case Fan|[HYTE FA12 Fans 4-Pack Snow White](https://uk.buildcores.com/products/CaseFan/lyne62bz6/HYTE-FA12-Fans-4-Pack-Snow-White)|[£19.99 (Overclockers)](https://www.awin1.com/cread.php?awinmid=28821&awinaffid=743627&campaign=BuildCores&ued=https%3A%2F%2Fwww.overclockers.co.uk%2Fhyte-fa12-120mm-pwm-fan-4-pack-white-coo-hyt-06112.html)|
+|Monitor|[Alienware 25 320Hz Gaming Monitor - AW2525HM](https://uk.buildcores.com/products/Monitor/v489u0mt6/Alienware-25-320Hz-Gaming-Monitor-AW2525HM)|[£194.99 (BackToTheOffice)](https://www.awin1.com/cread.php?awinmid=61655&awinaffid=743627&campaign=BuildCores.com&ued=https%3A%2F%2Fwww.backtotheoffice.co.uk%2Fproducts%2Falienware-245-full-hd-320hz-gaming-monitor-aw2525hm%3Fvariant%3D56014921171326)|
+|Keyboard|[Redragon K745 Wired Gasket RGB Gaming Keyboard, 108 Keys Mechanical Keyboard w/Extra 4 Hotkeys, Upgraded Hot-swappable Socket, 5-Layer Noise Dampening, Creamy & Thocky Custom Linear Switch](https://uk.buildcores.com/products/Keyboard/os192pc2m/Redragon-K745-Wired-Gasket-RGB-Gaming-Keyboard%2C-108-Keys-Mechanical-Keyboard-w-Extra-4-Hotkeys%2C-Upgraded-Hot-swappable-Socket%2C-5-Layer-Noise-Dampening%2C-Creamy-%26-Thocky-Custom-Linear-Switch)|[£43.99 (Amazon)](https://www.amazon.co.uk/dp/B0G1RY2T41?tag=buildcoresx-21&linkCode=ogi&th=1&psc=1)|
+|Mouse|[Logitech M220 Wireless Mouse with Silent Clicks](https://uk.buildcores.com/products/Mouse/th26ruol1/Logitech-M220-Wireless-Mouse-with-Silent-Clicks)|[£11.99 (Box.co)](https://www.awin1.com/cread.php?awinmid=100685&awinaffid=743627&campaign=BuildCores&ued=https%3A%2F%2Fbox.co.uk%2F910-004878-logitech-m220-wireless-1000-dpi-mouse)|
+|Webcam|[UGREEN Full HD 1080P Webcam with Microphone, 2 Noise-Canceling Mics, 85° Fov & Fixed Focus, Plug and Play, Auto Light Correction, Privacy Cover PC Camera for Zoom/Skype/Teams, Switch 2, Silver Grey](https://uk.buildcores.com/products/Webcam/x4f52479o/UGREEN-Full-HD-1080P-Webcam-with-Microphone%2C-2-Noise-Canceling-Mics%2C-85%C2%B0-Fov-%26-Fixed-Focus%2C-Plug-and-Play%2C-Auto-Light-Correction%2C-Privacy-Cover-PC-Camera-for-Zoom-Skype-Teams%2C-Switch-2%2C-Silver-Grey)|[£16.99 (Amazon)](https://www.amazon.co.uk/dp/B0F1SJR713?tag=buildcoresx-21&linkCode=ogi&th=1&psc=1)|
+| | | |
+|**Total Price**|**£2290.39**| |
+|[BuildCores Web](https://uk.buildcores.com)|[BuildCores iOS](https://apps.apple.com/us/app/buildcores-part-picker-for-pc/id1441971434)|[BuildCores Android](https://play.google.com/store/apps/details?id=com.buildcores.buildcores&pcampaignid=web_share)|
+
+
 
 
 ## 3D VISUALISATION SPECIALIST WORKSTAION: JUSTIFICATIONS.
+
+### *(Insert justifications here when done)*
 
 
 
