@@ -62,6 +62,7 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=t
 
 | Project Manager Job role and how this affects the workstation build      |
 | :---        |
+|The average roles of a Project Manafer include creating reports and spreadsheets, managing schedules and deadlines, running Zoom or Microsoft Teams calls and video calls and viewing technical drawing plans and PDFs The PC will need to be a business hardware workstation with stronger display/workflow setup, ideally with at least 16GB of RAM as a starting point for dashboards and using multiple applications simultaneously. A fast NVMe SSD will help large files save and open quicker and large applications launch quickly. There should also be a reliable Wi-Fi or ethernet connection and the CPU and RAM should hold enough capacity to run video calls, browsers and email applications at the same time. |
 
 ## PROJECT MANAGER WORKSTATION BUILD.
 ### *(Insert image here)*
