@@ -1,7 +1,8 @@
 # MINI PROJECT 1: Northwest Architecture Studio Ltd. (Computer fundamentals).
 
+## *ADMINISTRATIVE ASSISTANT WORKSTATION*
 
-| Administrative Assistant (Job role and how this affects the workstation build      |
+| Administrative Assistant Job role and how this affects the workstation build      |
 | :---        |
 | The typical roles of an administrative assistant include safely securing sensitive data, taking and answering phone calls, managing emails, updating records and calendar management. Because of this, an Admin Assistant will typically need a basic office hardware workstation. This is a PC that typically only requires the use of lightweight software applications, such as Google Workspace or Microsoft Office 365. The PC will also most likely have Cloud-Based Workflows, rather than most information being stored locally. In connection with the standard office Duties of an Admin Assistant, basic communication tools will suffice, for example, Microsoft Teams and Zoom. These applications run efficiently on entry level processors and PCs with the standard amounts of RAM available like 8GB or 16GB|  |
 
@@ -57,8 +58,21 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=t
 
 
 
-## PROJECT MANAGER: JUSTIFICATIONS.
+## *PROJECT MANAGER WORKSATION*
 
+| Project Manager Job role and how this affects the workstation build      |
+| :---        |
+
+## PROJECT MANAGER WORKSTATION BUILD.
+### *ADD BUILD IMAGE HERE*
+
+
+## PROJECT MANAGER WORKSTATION BUILDCORES PARTS LIST.
+
+
+
+
+## PROJECT MANAGER: JUSTIFICATIONS.
 
 | Model      | Description | Why I Chose This     |
 | :---        |    :----:   |          ---: |
@@ -77,6 +91,7 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=t
 | Logitech C930e           | Webcam             | The Logitech C930e webcam was selected because Project Managers are expected to participate in online meetings and communicate with clients and colleagues. A 1080p webcam provides suitable image quality for professional video conferencing, while USB connectivity allows straightforward installation. The integrated microphones also provide an additional communication option.                          |
 | Cyber Accoustics AC-204                 | Headphones                    | The headset/headphones provide a suitable audio solution for online meetings, client calls and other communication activities. A relatively inexpensive model is appropriate because the Project Manager does not require specialist professional audio equipment.  |
 
+## 3D Visualisation Specialist Workstation.
 
 
 
