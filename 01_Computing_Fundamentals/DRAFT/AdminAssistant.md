@@ -111,7 +111,17 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=t
 | Logitech C930e           | Webcam             | The Logitech C930e webcam was selected because Project Managers are expected to participate in online meetings and communicate with clients and colleagues. A 1080p webcam provides suitable image quality for professional video conferencing, while USB connectivity allows straightforward installation. The integrated microphones also provide an additional communication option.                          |
 | Cyber Accoustics AC-204                 | Headphones                    | The headset/headphones provide a suitable audio solution for online meetings, client calls and other communication activities. A relatively inexpensive model is appropriate because the Project Manager does not require specialist professional audio equipment.  |
 
-## 3D Visualisation Specialist Workstation.
+## *3D Visualisation Specialist Workstation.*
+
+| 3D Visualisation Specialist job role and how this affects the workstation build      |
+| :---        |
+
+## 3D VISUALISATION SPECIALIST WORKSTATION BUILD.
+
+<img width="1062" height="783" alt="3D Visualisation Specialist build" src="https://github.com/user-attachments/assets/704abd2b-6878-4f90-8ee5-b82902f8bb2d" />
+
+
+## 3D VISUALISATION SPECIALIST WORKSTAION: JUSTIFICATIONS.
 
 
 
