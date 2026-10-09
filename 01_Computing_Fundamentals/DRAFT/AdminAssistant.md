@@ -15,7 +15,7 @@
 
 
 
-## ADMINISTRATIVE ASSISTANT WORKSTATION BUILDCORES PARTS LIST.
+## ADMINISTRATIVE ASSISTANT WORKSTATION BUILDCORES COST TABLE.
 BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=true)
 
  
@@ -119,6 +119,9 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=t
 ## 3D VISUALISATION SPECIALIST WORKSTATION BUILD.
 
 <img width="1062" height="783" alt="3D Visualisation Specialist build" src="https://github.com/user-attachments/assets/704abd2b-6878-4f90-8ee5-b82902f8bb2d" />
+
+
+## ADMINISTRATIVE ASSISTANT WORKSTATION BUILDCORES COST TABLE.
 
 
 ## 3D VISUALISATION SPECIALIST WORKSTAION: JUSTIFICATIONS.
