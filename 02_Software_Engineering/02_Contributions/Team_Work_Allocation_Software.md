@@ -31,16 +31,16 @@ R = Responsible · A = Accountable · C = Consulted · I = Informed
 
 | Task | Cerys | Ezekiel | Princess | Godstime |
 |------|----------|----------|----------|----------|
-| Requirements analysis (what the program must do) | | | | |
-| IPO chart (Input – Process – Output) | | | | |
-| Flowchart / pseudocode design | | | | |
-| Test plan (normal, abnormal, extreme data) | | | | |
-| Flowgorithm build (variables, input, processing) | | | | |
-| Flowgorithm build (decisions, loops, output) | | | | |
-| Validation / error handling | | | | |
-| Testing against the plan & recording results | | | | |
-| Deployment notes (how it would be rolled out) | | | | |
-| Ethical / professional considerations write-up | | | | |
+| Requirements analysis (what the program must do) |R/A |C |I |C |
+| IPO chart (Input – Process – Output) |R/A |C |C |I |
+| Flowchart / pseudocode design |C |R/A |C |C |
+| Test plan (normal, abnormal, extreme data) |C |C |C |R/A |
+| Flowgorithm build (variables, input, processing) |C |C |C |R/A |
+| Flowgorithm build (decisions, loops, output) |I |I |R/A |C |
+| Validation / error handling |I |C |R/A |I |
+| Testing against the plan & recording results |R/A |I |I |C |
+| Deployment notes (how it would be rolled out) |C |I |I |R/A |
+| Ethical / professional considerations write-up |C |R/A |I |I |
 | Final team walkthrough & consistency check | | | | |
 
 > Columns are the team members — replace the headers with names. Add or remove a column for a 3- or 5-person team, and make sure every stage (analysis → design → build → test → deploy) is owned by someone.
