@@ -29,16 +29,16 @@
 
 R = Responsible · A = Accountable · C = Consulted · I = Informed
 
-| Task | Member 1 | Member 2 | Member 3 | Member 4 |
+| Task | Cerys | Ezekiel | Princess | Godstime |
 |------|----------|----------|----------|----------|
-| Administrative Assistant build (BuildCores + peripherals) | | | | |
-| Project Manager build (BuildCores + peripherals) | | | | |
-| Architect / CAD Designer build (BuildCores + peripherals) | | | | |
-| 3D Visualisation Specialist build (BuildCores + peripherals) | | | | |
-| Component justifications (role suitability & value) | | | | |
-| Pricing evidence (screenshots, links, date checked) | | | | |
-| Combined budget & comparison table | | | | |
-| Final team recommendation | | | | |
-| Ethical / responsible purchasing commentary | | | | |
+| Administrative Assistant build (BuildCores + peripherals) |R/A |I |I |I |
+| Project Manager build (BuildCores + peripherals) |I |I |I |R/A |
+| Architect / CAD Designer build (BuildCores + peripherals) |I |R/A | I|I |
+| 3D Visualisation Specialist build (BuildCores + peripherals) |I |I |R/A |I |
+| Component justifications (role suitability & value) |R/A |R/A |R/A |R/A |
+| Pricing evidence (screenshots, links, date checked) |R/A |C |C |C |
+| Combined budget & comparison table |R/A |C |C |C |
+| Final team recommendation | R/A|R/A | R/A|R/A |
+| Ethical / responsible purchasing commentary |R/A |C |C | R/A|
 
 > Add or remove a member column for a 3- or 5-person team, and adjust the build rows so every role is owned by someone.
