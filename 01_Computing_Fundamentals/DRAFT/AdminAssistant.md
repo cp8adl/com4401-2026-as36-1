@@ -354,11 +354,11 @@ Grouping by both RoleID and RoleNames keeps separate roles distinct even if they
 
 | Role | Quantity | Hardware cost per workstation | Total role hardware cost | Budget position |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
-| Administrative Assistant     | 3        | £           | £           | Under/Over |
-| Project Manager              | 2        | £           | £           | Under/Over |
+| Administrative Assistant     | 3        | £ 589.84          | £ 1,769.52           | Under/Over |
+| Project Manager              | 2        | £ 853.91          | £ 1,707.82          | Under/Over |
 | Architect/ CAD Designer      | 5        | £           | £           |Under/Over |    
-| 3D Visualisation Specialist  | 2        | £           | £           |Under/Over | 
-| Total hardware refresh | 12        | -           | £           | | 
+| 3D Visualisation Specialist  | 2        | £ 1,145.20          | £ 2,290.39      |Under/Over | 
+| Total hardware refresh | 12        | -           | £           |                | 
 
 
 
