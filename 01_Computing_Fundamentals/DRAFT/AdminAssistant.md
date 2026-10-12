@@ -352,6 +352,13 @@ Grouping by both RoleID and RoleNames keeps separate roles distinct even if they
 <img width="1903" height="922" alt="QUERY 11" src="https://github.com/user-attachments/assets/2ed26c0c-d542-41e7-b5c9-b371824f5d97" />
 
 
+| Role | Quantity | Hardware cost per workstation | Total role hardware cost | Budget position |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+| Administrative Assistant     | 3        | £           | £           | Under/Over |
+| Project Manager              | 2        | £           | £           | Under/Over |
+| Architect/ CAD Designer      | 5        | £           | £           |Under/Over |    
+| 3D Visualisation Specialist  | 2        | £           | £           |Under/Over | 
+| Total hardware refresh | 12        | -           | £           | | 
 
 
 
