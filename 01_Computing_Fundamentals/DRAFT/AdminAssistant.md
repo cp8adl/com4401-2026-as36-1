@@ -172,7 +172,33 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=t
 
 ## *ARCHITECT/CAD DESIGNER WORKSTATION*
 
+## ARCHITECT/CAD DESIGNER WORKSTATION BUILD.
 
+
+
+
+## ARCHITECT/CAD DESIGNER WORKSTATION BUILDCORES COST TABLE.
+
+BuildCores Parts List: [Link](https://uk.buildcores.com/builds/rnvw_0eWM?share=true)
+
+ 
+|**Component**|**Title**|**Price**|
+|:-|:-|:-|
+|Case|[Montech HS02 ATX Mid Tower White with Tempered Glass Side Panel](https://uk.buildcores.com/products/PCCase/5y50ryndt/Montech-HS02-ATX-Mid-Tower-White-with-Tempered-Glass-Side-Panel)|[£24.98 (ScanComputer)](https://www.awin1.com/cread.php?awinmid=15473&awinaffid=743627&ued=https%3A%2F%2Fwww.scan.co.uk%2Fproducts%2F120mm-montech-e28-pwm-fan-3-pack-white-9-blade-800-2200rpm-8509-cfm-fluid-dynamic-bearing-4-p)|
+|CPU|[AMD Ryzen 7 1700](https://uk.buildcores.com/products/CPU/lme6je0xd/AMD-Ryzen-7-1700)|[£120.03 (Amazon)](https://www.amazon.co.uk/dp/B06WP5YCX6?tag=buildcoresx-21&linkCode=ogi&th=1&psc=1)|
+|Motherboard|[Gigabyte A520 M K V2 AM4 DDR4 Micro ATX](https://uk.buildcores.com/products/Motherboard/b4a8e6kpw/Gigabyte-A520-M-K-V2-AM4-DDR4-Micro-ATX)|[£42.99 (Amazon)](https://www.amazon.co.uk/dp/B0BXFBN121?tag=buildcoresx-21&linkCode=ogi&th=1&psc=1)|
+|GPU|[MSI GeForce GT 710 2GD3H LP 2GB DDR3](https://uk.buildcores.com/products/GPU/oory9ut6e/MSI-GeForce-GT-710-2GD3H-LP-2GB-DDR3)|[£49.99 (Amazon)](https://www.amazon.co.uk/dp/B01AY78MLM?tag=buildcoresx-21&linkCode=ogi&th=1&psc=1)|
+|RAM|[Kingston ValueRAM DDR4-3200 CL22 4GB (1x4GB)](https://uk.buildcores.com/products/RAM/gjhm5f404/Kingston-ValueRAM-DDR4-3200-CL22-4GB-(1x4GB))|[£46.90 (Amazon)](https://www.amazon.co.uk/dp/B07V2CDSY3?tag=buildcoresx-21&linkCode=ogi&th=1&psc=1)|
+|CPU Cooler|[AMD Wraith Stealth Socket AM4](https://uk.buildcores.com/products/CPUCooler/kzbbooyz9/AMD-Wraith-Stealth-Socket-AM4)|[£9.99 (Amazon)](https://www.amazon.co.uk/dp/B07MFMFL7R?tag=buildcoresx-21&linkCode=ogi&th=1&psc=1)|
+|Storage|[Orico Y-20 128GB SSD 2.5" SATA 6.0 Gb/s](https://uk.buildcores.com/products/Storage/1uxk9obbd/Orico-Y-20-128GB-SSD-2.5%22-SATA-6.0-Gb-s)|[£24.69 (Amazon)](https://www.amazon.co.uk/dp/B0D7C93FBK?tag=buildcoresx-21&linkCode=ogi&th=1&psc=1)|
+|Power Supply|[be quiet! Straight Power 12 Black 750W Fully Modular 80+ Platinum](https://uk.buildcores.com/products/PSU/etfwc1dlu/be-quiet!-Straight-Power-12-Black-750W-Fully-Modular-80%2B-Platinum)|[£19.99 (ScanComputer)](https://www.awin1.com/cread.php?awinmid=15473&awinaffid=743627&ued=https%3A%2F%2Fwww.scan.co.uk%2Fproducts%2Fcorsair-pc-diy-precision-toolkit-65-nickel-plated-screw-bits-extension-rod-magnetised-tray-driver-ca)|
+|Case Fan|[ARCTIC P12 120mm Black](https://uk.buildcores.com/products/CaseFan/6tt8ltq2c/ARCTIC-P12-120mm-Black)|[£3.98 (ScanComputer)](https://www.awin1.com/cread.php?awinmid=15473&awinaffid=743627&ued=https%3A%2F%2Fwww.scan.co.uk%2Fproducts%2F120mm-arctic-p12-5-blade-static-pressure-fan-1800rpm-563cfm-fluid-dynamic-bearing-3-pin-black)|
+|Monitor|[Monoprice Dark Matter 31.5" 1440p 165Hz IPS Monitor](https://uk.buildcores.com/products/Monitor/nhakj1jcx/Monoprice-Dark-Matter-31.5%22-1440p-165Hz-IPS-Monitor)|[£15.99 (CCL)](https://ccl.pxf.io/c/2299452/1991091/24481?prodsku=MED3071&u=https%3A%2F%2Fwww.cclonline.com%2F43548-verbatim-4-7gb-dvd-r-discs-16x-50-pack-spindle%2F&intsrc=CATF_16482)|
+|Keyboard|[Logitech K120 UK Layout Wired Standard Keyboard](https://uk.buildcores.com/products/Keyboard/7xf62wlvo/Logitech-K120-UK-Layout-Wired-Standard-Keyboard)|[£10.99 (ScanComputer)](https://www.awin1.com/cread.php?awinmid=15473&awinaffid=743627&ued=https%3A%2F%2Fwww.scan.co.uk%2Fproducts%2Flogitech-k120-wired-keyboard-full-size-black-membrane-switches-spill-resistant-usb-uk)|
+|Mouse|[Genius DX 110 Wired Optical Black Mouse](https://uk.buildcores.com/products/Mouse/7mu8cd92k/Genius-DX-110-Wired-Optical-Black-Mouse)|[£3.99 (CCL)](https://ccl.pxf.io/c/2299452/1991091/24481?prodsku=MOU2455&u=https%3A%2F%2Fwww.cclonline.com%2F31010116106-genius-dx-110-black-ps2-full-size-optical-mouse%2F&intsrc=CATF_16482)|
+| | | |
+|**Total Price**|**$374.51**| |
+|[BuildCores Web](https://uk.buildcores.com)|[BuildCores iOS](https://apps.apple.com/us/app/buildcores-part-picker-for-pc/id1441971434)|[BuildCores Android](https://play.google.com/store/apps/details?id=com.buildcores.buildcores&pcampaignid=web_share)|
 
 
 
