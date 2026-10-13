@@ -404,6 +404,11 @@ Grouping by both RoleID and RoleNames keeps separate roles distinct even if they
 | Total hardware refresh | 12        | -           | £ 9,930.67           | Against £26,000 hardware-only budget               | 
 
 
+# MINI PROJECT 3: NorthWest Architecture Studio Network 
+## Networking Fundamentals: LAN and external/cloud network basics, IP addressing, protocols, and client-server architecture built and tested in Filius 
+
+
+
 
 
 
