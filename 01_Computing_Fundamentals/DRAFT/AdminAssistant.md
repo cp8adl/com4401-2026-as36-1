@@ -407,10 +407,66 @@ Grouping by both RoleID and RoleNames keeps separate roles distinct even if they
 # MINI PROJECT 3: NorthWest Architecture Studio Network 
 ## Networking Fundamentals: LAN and external/cloud network basics, IP addressing, protocols, and client-server architecture built and tested in Filius 
 
+# FILIUS BUILD.
+
+<img width="1880" height="997" alt="FILIUS PUT TOGETHER" src="https://github.com/user-attachments/assets/4f728133-2aa1-4497-bad4-bfea4be2b805" />
 
 
 
 
+### *PING 1*
+
+<img width="917" height="880" alt="PING 1" src="https://github.com/user-attachments/assets/1105fea8-cb6d-4eb3-9315-5a2fa14107c4" />
+
+
+### *PING 2*
+
+<img width="923" height="881" alt="PING 2" src="https://github.com/user-attachments/assets/66d877e3-9ba5-4fad-b303-023e40e08cab" />
+
+
+
+
+### *PING 3*
+
+
+<img width="905" height="875" alt="PING 3" src="https://github.com/user-attachments/assets/534fe900-18ce-4791-ab94-afa0e2ba9238" />
+
+
+
+### *PING 4*
+
+<img width="924" height="986" alt="PING 4" src="https://github.com/user-attachments/assets/f762e82d-3991-4c7d-8eb2-964faee4e9f5" />
+
+
+
+
+
+
+### *PING 5*
+
+
+<img width="915" height="991" alt="PING 5" src="https://github.com/user-attachments/assets/d39ffe8a-ca65-4f63-b139-38496a5bebb8" />
+
+
+
+### *PING 6*
+
+<img width="893" height="923" alt="PING 6" src="https://github.com/user-attachments/assets/ad4f2476-5142-43d8-bbc7-2e730825ea0d" />
+
+
+
+### *PING 7*
+
+<img width="921" height="985" alt="PING 7" src="https://github.com/user-attachments/assets/cb0562cb-2b66-4004-9b06-2a0a3234a735" />
+
+
+### *PING 8*
+
+<img width="927" height="959" alt="PING 8" src="https://github.com/user-attachments/assets/d30a328f-9578-46b0-92d6-2096929d2310" />
+
+## *IP ADDRESS TABLE*
+
+<img width="1920" height="1030" alt="FILIUS IP ADRESS TABLE  ADMIN PC" src="https://github.com/user-attachments/assets/2cbeaaed-5664-4e0c-bc8a-d25a7b9c64be" />
 
 
 
