@@ -170,6 +170,17 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=t
 
 
 
+## *ARCHITECT/CAD DESIGNER WORKSTATION*
+
+
+
+
+
+
+
+
+
+
 
 
 ## SQL TABLES CREATED
