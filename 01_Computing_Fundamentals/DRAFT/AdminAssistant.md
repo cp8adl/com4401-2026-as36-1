@@ -468,19 +468,30 @@ Grouping by both RoleID and RoleNames keeps separate roles distinct even if they
 
 <img width="1920" height="1030" alt="FILIUS IP ADRESS TABLE  ADMIN PC" src="https://github.com/user-attachments/assets/2cbeaaed-5664-4e0c-bc8a-d25a7b9c64be" />
 
-### *Switch vs Router*
+## *Switch vs Router*
 ### *(Office/External switch; Office Router)*
+|**Switch vs Router. (Office/External Switch; Office Router**|
+|---------|
+| A local switch connects devices within the same LAN (local area network), whereasa router operates at the Network Layer (layer 3). The switch operates at the Data Link Layer (layer 2) and connects devices such as, computers and servers in a LAN, within the same network segment. The Router, however, directs data packets (a small, structured unit of data) based on IP addresses.     |
+
 
 ## *ICMP / ping*
-### *(Ping tests)*
+
+|**ICMP / ping (Ping tests)** |
+|---------------|
+|A ping test is a network diagnostic tool which is used to conclude how quickly a specific host, such as a server or router responds and whether it is reachable. The ping tests above test the connectivity between the client and the server. The client being the computer sending requests to the server. These tests check whether a destination device responds over the network. These tests also show packet loss, showing if some test packets fail the receive a response.|
+
 
 ## *IP addressing*
-### *(Every device has a unique IP)*
+
+|*IP addressing (Every device has a unique IP)*|
+|---------------|
+| IP addresses are used by the router to forward packets between different networks and identifies its network interface and provides the location for the host in the network and supports essential functions such as resource sharing and communication across the internet. |
 
 ## *Gateway* 
 ### *(Client PCs use 192.168.10.1)*
 
-## Client Server
+## *Client Server*
 ### *(CAD PC - Office/Cloud Server)*
 
 
