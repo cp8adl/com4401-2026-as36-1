@@ -170,9 +170,11 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=t
 
 
 
-## *ARCHITECT/CAD DESIGNER WORKSTATION*
+# *ARCHITECT/CAD DESIGNER WORKSTATION*
 
 ## ARCHITECT/CAD DESIGNER WORKSTATION BUILD.
+
+<img width="1149" height="832" alt="CAD DESIGN BUILD" src="https://github.com/user-attachments/assets/ddbf2033-da96-4d6d-8aa9-5fd27d822934" />
 
 
 
