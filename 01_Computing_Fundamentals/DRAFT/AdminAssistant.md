@@ -488,8 +488,11 @@ Grouping by both RoleID and RoleNames keeps separate roles distinct even if they
 |---------------|
 | IP addresses are used by the router to forward packets between different networks and identifies its network interface and provides the location for the host in the network and supports essential functions such as resource sharing and communication across the internet. |
 
-## *Gateway* 
-### *(Client PCs use 192.168.10.1)*
+## GATEWAY
+| Gateway. |
+|-----------|
+|A gateway is a way for a client PC to connect to the internet. For example, the IP address  192.168.10.10 sends data to the gateway 192.168.10.1 which then forwards data, for example, to a remote destination. A gateway decides the best route for transmitting packets between networks, prioritising reliability and speed. The IP address serves as a unique numeric label, for a client PC, which works together with a public IP address which is directly linked to the internet. Network Address Translation (NAT) is used in network design which allows private IP addresses to communicate with the internet by converting these private IP addresses into public ones. This allows internal devices to access external resources securely.|
+
 
 ## *Client Server*
 ### *(CAD PC - Office/Cloud Server)*
