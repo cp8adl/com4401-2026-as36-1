@@ -414,6 +414,15 @@ Grouping by both RoleID and RoleNames keeps separate roles distinct even if they
 
 
 
+## *ICMP / ping*
+
+|**ICMP / ping (Ping tests)** |
+|---------------|
+|A ping test is a network diagnostic tool which is used to conclude how quickly a specific host, such as a server or router responds and whether it is reachable. The ping tests above test the connectivity between the client and the server. The client being the computer sending requests to the server. These tests check whether a destination device responds over the network. These tests also show packet loss, showing if some test packets fail the receive a response.|
+
+
+
+
 ### *PING 1. Lan PC-to-PC*
 
 <img width="917" height="880" alt="PING 1" src="https://github.com/user-attachments/assets/1105fea8-cb6d-4eb3-9315-5a2fa14107c4" />
@@ -430,6 +439,13 @@ Grouping by both RoleID and RoleNames keeps separate roles distinct even if they
 
 
 <img width="905" height="875" alt="PING 3" src="https://github.com/user-attachments/assets/534fe900-18ce-4791-ab94-afa0e2ba9238" />
+
+## *DNS*
+| DNS (Domain Name System) |
+|----------|
+|DNS is a process where human readable domain names, such as 'domainname.com, is trasnlated into a machine-readable IP address which computers use to communicate. A short step by step can be where, if someone wants to connect to a website, the domain name will be entered into a search engine, instead of an IP address, where a DNS resolver will then translate the domain name into the IP address and return it for the PC to connect to the correct server.|
+
+
 
 
 
@@ -459,34 +475,44 @@ Grouping by both RoleID and RoleNames keeps separate roles distinct even if they
 
 <img width="921" height="985" alt="PING 7" src="https://github.com/user-attachments/assets/cb0562cb-2b66-4004-9b06-2a0a3234a735" />
 
+## *IP addressing*
+
+|IP addressing (Every device has a unique IP)|
+|---------------|
+| IP addresses are used by the router to forward packets between different networks and identifies its network interface and provides the location for the host in the network and supports essential functions such as resource sharing and communication across the internet. |
+
+
+
+
 
 ### *PING 8. External web by name*
 
 <img width="927" height="959" alt="PING 8" src="https://github.com/user-attachments/assets/d30a328f-9578-46b0-92d6-2096929d2310" />
 
+
+
 ## *IP ADDRESS TABLE*
 
 <img width="1920" height="1030" alt="FILIUS IP ADRESS TABLE  ADMIN PC" src="https://github.com/user-attachments/assets/2cbeaaed-5664-4e0c-bc8a-d25a7b9c64be" />
 
+
+
+
 ## *Switch vs Router*
+
+<img width="1914" height="1000" alt="M P 3  SWITCH vs ROUTER" src="https://github.com/user-attachments/assets/e8d2ac58-8bd5-4790-985a-4822f5018701" />
+
+
+
 ### *(Office/External switch; Office Router)*
 |**Switch vs Router. (Office/External Switch; Office Router**|
 |---------|
 | A local switch connects devices within the same LAN (local area network), whereasa router operates at the Network Layer (layer 3). The switch operates at the Data Link Layer (layer 2) and connects devices such as, computers and servers in a LAN, within the same network segment. The Router, however, directs data packets (a small, structured unit of data) based on IP addresses.     |
 
 
-## *ICMP / ping*
-
-|**ICMP / ping (Ping tests)** |
-|---------------|
-|A ping test is a network diagnostic tool which is used to conclude how quickly a specific host, such as a server or router responds and whether it is reachable. The ping tests above test the connectivity between the client and the server. The client being the computer sending requests to the server. These tests check whether a destination device responds over the network. These tests also show packet loss, showing if some test packets fail the receive a response.|
 
 
-## *IP addressing*
 
-|IP addressing (Every device has a unique IP)|
-|---------------|
-| IP addresses are used by the router to forward packets between different networks and identifies its network interface and provides the location for the host in the network and supports essential functions such as resource sharing and communication across the internet. |
 
 ## *GATEWAY*
 | Gateway. |
@@ -494,10 +520,6 @@ Grouping by both RoleID and RoleNames keeps separate roles distinct even if they
 |A gateway is a way for a client PC to connect to the internet. For example, the IP address  192.168.10.10 sends data to the gateway 192.168.10.1 which then forwards data, for example, to a remote destination. A gateway decides the best route for transmitting packets between networks, prioritising reliability and speed. The IP address serves as a unique numeric label, for a client PC, which works together with a public IP address which is directly linked to the internet. Network Address Translation (NAT) is used in network design which allows private IP addresses to communicate with the internet by converting these private IP addresses into public ones. This allows internal devices to access external resources securely.|
 
 
-## *DNS*
-| DNS (Domain Name System) |
-|----------|
-|DNS is a process where human readable domain names, such as 'domainname.com, is trasnlated into a machine-readable IP address which computers use to communicate. A short step by step can be where, if someone wants to connect to a website, the domain name will be entered into a search engine, instead of an IP address, where a DNS resolver will then translate the domain name into the IP address and return it for the PC to connect to the correct server.|
 
 
 
