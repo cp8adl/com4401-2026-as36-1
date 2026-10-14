@@ -484,18 +484,20 @@ Grouping by both RoleID and RoleNames keeps separate roles distinct even if they
 
 ## *IP addressing*
 
-|*IP addressing (Every device has a unique IP)*|
+|IP addressing (Every device has a unique IP)|
 |---------------|
 | IP addresses are used by the router to forward packets between different networks and identifies its network interface and provides the location for the host in the network and supports essential functions such as resource sharing and communication across the internet. |
 
-## GATEWAY
+## *GATEWAY*
 | Gateway. |
 |-----------|
 |A gateway is a way for a client PC to connect to the internet. For example, the IP address  192.168.10.10 sends data to the gateway 192.168.10.1 which then forwards data, for example, to a remote destination. A gateway decides the best route for transmitting packets between networks, prioritising reliability and speed. The IP address serves as a unique numeric label, for a client PC, which works together with a public IP address which is directly linked to the internet. Network Address Translation (NAT) is used in network design which allows private IP addresses to communicate with the internet by converting these private IP addresses into public ones. This allows internal devices to access external resources securely.|
 
 
-## *Client Server*
-### *(CAD PC - Office/Cloud Server)*
+## *DNS*
+| DNS (Domain Name System) |
+|----------|
+|DNS is a process where human readable domain names, such as 'domainname.com, is trasnlated into a machine-readable IP address which computers use to communicate. A short step by step can be where, if someone wants to connect to a website, the domain name will be entered into a search engine, instead of an IP address, where a DNS resolver will then translate the domain name into the IP address and return it for the PC to connect to the correct server.|
 
 
 
