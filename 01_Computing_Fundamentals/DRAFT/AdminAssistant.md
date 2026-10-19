@@ -519,7 +519,10 @@ Grouping by both RoleID and RoleNames keeps separate roles distinct even if they
 |-----------|
 |A gateway is a way for a client PC to connect to the internet. For example, the IP address  192.168.10.10 sends data to the gateway 192.168.10.1 which then forwards data, for example, to a remote destination. A gateway decides the best route for transmitting packets between networks, prioritising reliability and speed. The IP address serves as a unique numeric label, for a client PC, which works together with a public IP address which is directly linked to the internet. Network Address Translation (NAT) is used in network design which allows private IP addresses to communicate with the internet by converting these private IP addresses into public ones. This allows internal devices to access external resources securely.|
 
-
+## *OFFICE LAN VS EXTERNAL NETWORK*
+**| LAN vs EXTERNAL NETWORK and CLIENT-SERVER MODEL|**
+|--------|
+| a LAN (local area network) is a network which connects devices within a limited area, such as an office, a home, school or hospital. The Lan allows devices to communicate and share resources, such as internal systems, files and printers. The LAN allows users to share files and a single internet connection efficiently. On the other hand, external network refers to a network outside of the local network, for example, the internet or another organisations work. External networks are designed to facilitate a broader collaboration and connectivity between multiple locations and networks. The client-server model is a way in which computers or clients request services and servers provide them. This happens via a request-response communication pattern which is defined by application-layer protocols such as SQL or HTTP. To explain it a bit simpler, a device or program, called the 'client', reuqests information or a service and another program or device, named the 'server' provides it. |
 
 
 
