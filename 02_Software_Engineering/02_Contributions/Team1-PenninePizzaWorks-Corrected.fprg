@@ -1,0 +1,487 @@
+<?xml version='1.0' encoding='utf-8'?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value="Team 1 - Pennine Pizza Works" />
+        <attribute name="authors" value="Team 1 - prepared with AI assistance" />
+        <attribute name="about" value="Executable Flowgorithm implementation of the supplied Team 1 Word assessment. Corrected size-name/price arrays. Pineapple retained at 350 pence from original price list; draft also contains 330 pence. Seven numbered pizza labels; 1-7 distinct toppings; zero delivery fee. Prepared with AI assistance; native Flowgorithm execution unverified." />
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters />
+        <body>
+            <comment text="ABSTRACTION: Main coordinates customer entry, pizza selection, costing and the final bill." />
+            <comment text="DATA STRUCTURES: Declare related values in arrays." />
+            <declare name="customerDetails" type="String" array="True" size="3" />
+            <comment text="DATA STRUCTURES: Declare related values in arrays." />
+            <declare name="pizzaNames" type="String" array="True" size="7" />
+            <comment text="DATA STRUCTURES: Declare related values in arrays." />
+            <declare name="sizeNames" type="String" array="True" size="3" />
+            <comment text="DATA STRUCTURES: Declare related values in arrays." />
+            <declare name="sizePrices" type="Integer" array="True" size="3" />
+            <comment text="DATA STRUCTURES: Declare related values in arrays." />
+            <declare name="toppingNames" type="String" array="True" size="7" />
+            <comment text="DATA STRUCTURES: Declare related values in arrays." />
+            <declare name="toppingPrices" type="Integer" array="True" size="7" />
+            <comment text="DATA STRUCTURES: Declare related values in arrays." />
+            <declare name="chosenPizza" type="Integer" array="True" size="7" />
+            <comment text="DATA STRUCTURES: Declare related values in arrays." />
+            <declare name="chosenSize" type="Integer" array="True" size="7" />
+            <comment text="DATA STRUCTURES: Declare related values in arrays." />
+            <declare name="toppingCount" type="Integer" array="True" size="7" />
+            <comment text="DATA STRUCTURES: Declare related values in arrays." />
+            <declare name="chosenToppings" type="Integer" array="True" size="49" />
+            <comment text="DATA STRUCTURES: Declare related values in arrays." />
+            <declare name="pizzaCost" type="Integer" array="True" size="7" />
+            <comment text="VARIABLES: Declare the local values used in this function." />
+            <declare name="noOfPizzas" type="Integer" array="False" size="" />
+            <declare name="deliveryFee" type="Integer" array="False" size="" />
+            <comment text="ASSUMPTION: Delivery is 0 pence until the client supplies a delivery-charge rule." />
+            <assign variable="deliveryFee" expression="0" />
+            <comment text="ABSTRACTION: Call LoadPizzaData to load the supplied menu data." />
+            <call expression="LoadPizzaData(pizzaNames, sizeNames, sizePrices, toppingNames, toppingPrices)" />
+            <comment text="ABSTRACTION: Call GetCustomerDetails to collect and validate customer details." />
+            <call expression="GetCustomerDetails(customerDetails)" />
+            <comment text="INPUT / VALIDATION: Get a whole-number choice in the permitted range." />
+            <assign variable="noOfPizzas" expression="ReadInteger(&quot;Number of pizzas (1-7):&quot;, 1, 7)" />
+            <comment text="ABSTRACTION: Call ChoosePizzas to record the pizzas, sizes and toppings." />
+            <call expression="ChoosePizzas(noOfPizzas, pizzaNames, sizeNames, sizePrices, toppingNames, toppingPrices, chosenPizza, chosenSize, toppingCount, chosenToppings, pizzaCost)" />
+            <comment text="ABSTRACTION: Call DisplayBill to print the final itemised bill." />
+            <call expression="DisplayBill(customerDetails, noOfPizzas, deliveryFee, pizzaNames, sizeNames, sizePrices, toppingNames, toppingPrices, chosenPizza, chosenSize, toppingCount, chosenToppings, pizzaCost)" />
+        </body>
+    </function>
+    <function name="LoadPizzaData" type="None" variable="">
+        <parameters>
+            <parameter name="pizzaNames" type="String" array="True" />
+            <parameter name="sizeNames" type="String" array="True" />
+            <parameter name="sizePrices" type="Integer" array="True" />
+            <parameter name="toppingNames" type="String" array="True" />
+            <parameter name="toppingPrices" type="Integer" array="True" />
+        </parameters>
+        <body>
+            <comment text="DATA SETUP: Store the pizza labels, size prices and topping prices in parallel arrays. All prices are in pence." />
+            <assign variable="pizzaNames[0]" expression="&quot;Pizza 1&quot;" />
+            <assign variable="pizzaNames[1]" expression="&quot;Pizza 2&quot;" />
+            <assign variable="pizzaNames[2]" expression="&quot;Pizza 3&quot;" />
+            <assign variable="pizzaNames[3]" expression="&quot;Pizza 4&quot;" />
+            <assign variable="pizzaNames[4]" expression="&quot;Pizza 5&quot;" />
+            <assign variable="pizzaNames[5]" expression="&quot;Pizza 6&quot;" />
+            <assign variable="pizzaNames[6]" expression="&quot;Pizza 7&quot;" />
+            <assign variable="sizeNames[0]" expression="&quot;Small&quot;" />
+            <assign variable="sizeNames[1]" expression="&quot;Medium&quot;" />
+            <assign variable="sizeNames[2]" expression="&quot;Large&quot;" />
+            <assign variable="sizePrices[0]" expression="1000" />
+            <assign variable="sizePrices[1]" expression="1500" />
+            <assign variable="sizePrices[2]" expression="2000" />
+            <assign variable="toppingNames[0]" expression="&quot;Sausage&quot;" />
+            <assign variable="toppingNames[1]" expression="&quot;Chillis&quot;" />
+            <assign variable="toppingNames[2]" expression="&quot;Ham&quot;" />
+            <assign variable="toppingNames[3]" expression="&quot;Pineapple&quot;" />
+            <assign variable="toppingNames[4]" expression="&quot;Olives&quot;" />
+            <assign variable="toppingNames[5]" expression="&quot;Pepperoni&quot;" />
+            <assign variable="toppingNames[6]" expression="&quot;Tomatoes&quot;" />
+            <assign variable="toppingPrices[0]" expression="200" />
+            <assign variable="toppingPrices[1]" expression="50" />
+            <assign variable="toppingPrices[2]" expression="150" />
+            <assign variable="toppingPrices[3]" expression="350" />
+            <assign variable="toppingPrices[4]" expression="200" />
+            <assign variable="toppingPrices[5]" expression="50" />
+            <assign variable="toppingPrices[6]" expression="50" />
+        </body>
+    </function>
+    <function name="TrimText" type="String" variable="result">
+        <parameters>
+            <parameter name="text" type="String" array="False" />
+        </parameters>
+        <body>
+            <comment text="VALIDATION HELPER: Remove whitespace from both ends of customer and numeric entries." />
+            <comment text="VARIABLES: Declare the local values used in this function." />
+            <declare name="result" type="String" array="False" size="" />
+            <comment text="VARIABLES: Declare the local values used in this function." />
+            <declare name="first" type="Integer" array="False" size="" />
+            <declare name="last" type="Integer" array="False" size="" />
+            <declare name="index" type="Integer" array="False" size="" />
+            <comment text="VARIABLES: Declare the local values used in this function." />
+            <declare name="searching" type="Boolean" array="False" size="" />
+            <assign variable="first" expression="0" />
+            <assign variable="last" expression="Len(text) - 1" />
+            <assign variable="searching" expression="true" />
+            <comment text="LOOP / VALIDATION: Skip whitespace at the beginning or end of the text." />
+            <while expression="first &lt;= last and searching">
+                <comment text="SELECTION / VALIDATION: Check ToCode(Char(text, first)) &lt;= 32 and follow the appropriate branch." />
+                <if expression="ToCode(Char(text, first)) &lt;= 32">
+                    <then>
+                        <assign variable="first" expression="first + 1" />
+                    </then>
+                    <else>
+                        <assign variable="searching" expression="false" />
+                    </else>
+                </if>
+            </while>
+            <assign variable="searching" expression="true" />
+            <comment text="LOOP: Copy the characters of the trimmed text." />
+            <while expression="last &gt;= first and searching">
+                <comment text="SELECTION / VALIDATION: Check ToCode(Char(text, last)) &lt;= 32 and follow the appropriate branch." />
+                <if expression="ToCode(Char(text, last)) &lt;= 32">
+                    <then>
+                        <assign variable="last" expression="last - 1" />
+                    </then>
+                    <else>
+                        <assign variable="searching" expression="false" />
+                    </else>
+                </if>
+            </while>
+            <assign variable="result" expression="&quot;&quot;" />
+            <comment text="SELECTION / VALIDATION: Check first &lt;= last and follow the appropriate branch." />
+            <if expression="first &lt;= last">
+                <then>
+                    <comment text="LOOP: Repeat this section for the required values." />
+                    <for variable="index" start="first" end="last" direction="inc" step="1">
+                        <assign variable="result" expression="result &amp; Char(text, index)" />
+                    </for>
+                </then>
+                <else />
+            </if>
+        </body>
+    </function>
+    <function name="CheckBlank" type="String" variable="text">
+        <parameters>
+            <parameter name="prompt" type="String" array="False" />
+        </parameters>
+        <body>
+            <comment text="VALIDATION: Keep asking until the customer detail contains non-whitespace text." />
+            <comment text="VARIABLES: Declare the local values used in this function." />
+            <declare name="text" type="String" array="False" size="" />
+            <assign variable="text" expression="&quot;&quot;" />
+            <comment text="LOOP / VALIDATION: Repeat the prompt until a non-blank value is entered." />
+            <while expression="Len(text) = 0">
+                <output expression="prompt" newline="True" />
+                <comment text="INPUT: Read the staff member's entry as text." />
+                <input variable="text" />
+                <assign variable="text" expression="TrimText(text)" />
+                <comment text="SELECTION / VALIDATION: Check Len(text) = 0 and follow the appropriate branch." />
+                <if expression="Len(text) = 0">
+                    <then>
+                        <output expression="&quot;This cannot be blank. Please try again.&quot;" newline="True" />
+                    </then>
+                    <else />
+                </if>
+            </while>
+        </body>
+    </function>
+    <function name="GetCustomerDetails" type="None" variable="">
+        <parameters>
+            <parameter name="customerDetails" type="String" array="True" />
+        </parameters>
+        <body>
+            <comment text="ABSTRACTION: Collect the customer name, address and phone number using one reusable validation function." />
+            <comment text="INPUT / VALIDATION: Get a non-blank customer detail." />
+            <assign variable="customerDetails[0]" expression="CheckBlank(&quot;Enter name:&quot;)" />
+            <comment text="INPUT / VALIDATION: Get a non-blank customer detail." />
+            <assign variable="customerDetails[1]" expression="CheckBlank(&quot;Enter address:&quot;)" />
+            <comment text="INPUT / VALIDATION: Get a non-blank customer detail." />
+            <assign variable="customerDetails[2]" expression="CheckBlank(&quot;Enter phone number:&quot;)" />
+        </body>
+    </function>
+    <function name="ReadInteger" type="Integer" variable="value">
+        <parameters>
+            <parameter name="prompt" type="String" array="False" />
+            <parameter name="minimum" type="Integer" array="False" />
+            <parameter name="maximum" type="Integer" array="False" />
+        </parameters>
+        <body>
+            <comment text="VALIDATION: Check numeric text before conversion and accept only a whole number within the specified range." />
+            <comment text="VARIABLES: Declare the local values used in this function." />
+            <declare name="raw" type="String" array="False" size="" />
+            <comment text="VARIABLES: Declare the local values used in this function." />
+            <declare name="value" type="Integer" array="False" size="" />
+            <declare name="index" type="Integer" array="False" size="" />
+            <declare name="digit" type="Integer" array="False" size="" />
+            <comment text="VARIABLES: Declare the local values used in this function." />
+            <declare name="valid" type="Boolean" array="False" size="" />
+            <declare name="digitsOnly" type="Boolean" array="False" size="" />
+            <declare name="matched" type="Boolean" array="False" size="" />
+            <assign variable="valid" expression="false" />
+            <assign variable="value" expression="0" />
+            <comment text="LOOP / VALIDATION: Repeat input until the entry is valid." />
+            <while expression="not valid">
+                <output expression="prompt" newline="True" />
+                <comment text="INPUT: Read the staff member's entry as text." />
+                <input variable="raw" />
+                <assign variable="raw" expression="TrimText(raw)" />
+                <assign variable="digitsOnly" expression="Len(raw) &gt; 0" />
+                <comment text="LOOP / VALIDATION: Check each character in the numeric entry." />
+                <for variable="index" start="0" end="Len(raw) - 1" direction="inc" step="1">
+                    <assign variable="matched" expression="false" />
+                    <comment text="LOOP / VALIDATION: Match the character against digits 0 to 9." />
+                    <for variable="digit" start="0" end="9" direction="inc" step="1">
+                        <comment text="SELECTION / VALIDATION: Check Char(raw, index) = ToString(digit) and follow the appropriate branch." />
+                        <if expression="Char(raw, index) = ToString(digit)">
+                            <then>
+                                <assign variable="matched" expression="true" />
+                            </then>
+                            <else />
+                        </if>
+                    </for>
+                    <comment text="SELECTION / VALIDATION: Check not matched and follow the appropriate branch." />
+                    <if expression="not matched">
+                        <then>
+                            <assign variable="digitsOnly" expression="false" />
+                        </then>
+                        <else />
+                    </if>
+                </for>
+                <assign variable="raw" expression="RemoveLeadingZeros(raw)" />
+                <comment text="SELECTION / VALIDATION: Check digitsOnly and Len(raw) &lt;= 1 and follow the appropriate branch." />
+                <if expression="digitsOnly and Len(raw) &lt;= 1">
+                    <then>
+                        <assign variable="value" expression="ToInteger(raw)" />
+                        <assign variable="valid" expression="value &gt;= minimum and value &lt;= maximum" />
+                    </then>
+                    <else />
+                </if>
+                <comment text="SELECTION / VALIDATION: Check not valid and follow the appropriate branch." />
+                <if expression="not valid">
+                    <then>
+                        <output expression="&quot;Enter a whole number from &quot; &amp; ToString(minimum) &amp; &quot; to &quot; &amp; ToString(maximum) &amp; &quot;.&quot;" newline="True" />
+                    </then>
+                    <else />
+                </if>
+            </while>
+        </body>
+    </function>
+    <function name="RemoveLeadingZeros" type="String" variable="result">
+        <parameters>
+            <parameter name="text" type="String" array="False" />
+        </parameters>
+        <body>
+            <comment text="VALIDATION HELPER: Remove unnecessary leading zeros before numeric conversion." />
+            <comment text="VARIABLES: Declare the local values used in this function." />
+            <declare name="result" type="String" array="False" size="" />
+            <comment text="VARIABLES: Declare the local values used in this function." />
+            <declare name="first" type="Integer" array="False" size="" />
+            <declare name="index" type="Integer" array="False" size="" />
+            <comment text="VARIABLES: Declare the local values used in this function." />
+            <declare name="searching" type="Boolean" array="False" size="" />
+            <assign variable="first" expression="0" />
+            <assign variable="searching" expression="true" />
+            <comment text="LOOP: Skip leading zeros while retaining at least one character." />
+            <while expression="first &lt; Len(text) - 1 and searching">
+                <comment text="SELECTION / VALIDATION: Check Char(text, first) = &quot;0&quot; and follow the appropriate branch." />
+                <if expression="Char(text, first) = &quot;0&quot;">
+                    <then>
+                        <assign variable="first" expression="first + 1" />
+                    </then>
+                    <else>
+                        <assign variable="searching" expression="false" />
+                    </else>
+                </if>
+            </while>
+            <assign variable="result" expression="&quot;&quot;" />
+            <comment text="LOOP: Copy the remaining numeric text." />
+            <for variable="index" start="first" end="Len(text) - 1" direction="inc" step="1">
+                <assign variable="result" expression="result &amp; Char(text, index)" />
+            </for>
+        </body>
+    </function>
+    <function name="ShowPizzaMenu" type="None" variable="">
+        <parameters>
+            <parameter name="pizzaNames" type="String" array="True" />
+        </parameters>
+        <body>
+            <comment text="OUTPUT: Display the seven pizza choices with menu IDs from 1 to 7." />
+            <comment text="VARIABLES: Declare the local values used in this function." />
+            <declare name="index" type="Integer" array="False" size="" />
+            <output expression="&quot;Pizza menu:&quot;" newline="True" />
+            <comment text="LOOP / OUTPUT: Show each pizza name and its one-based menu ID." />
+            <for variable="index" start="0" end="6" direction="inc" step="1">
+                <output expression="ToString(index + 1) &amp; &quot;. &quot; &amp; pizzaNames[index]" newline="True" />
+            </for>
+        </body>
+    </function>
+    <function name="ShowPricedMenu" type="None" variable="">
+        <parameters>
+            <parameter name="names" type="String" array="True" />
+            <parameter name="prices" type="Integer" array="True" />
+            <parameter name="count" type="Integer" array="False" />
+        </parameters>
+        <body>
+            <comment text="OUTPUT: Display size or topping names with IDs and prices formatted to two decimal places." />
+            <comment text="VARIABLES: Declare the local values used in this function." />
+            <declare name="index" type="Integer" array="False" size="" />
+            <comment text="LOOP / OUTPUT: Show each menu entry and its formatted price." />
+            <for variable="index" start="0" end="count - 1" direction="inc" step="1">
+                <output expression="ToString(index + 1) &amp; &quot;. &quot; &amp; names[index] &amp; &quot; - &quot; &amp; Money(prices[index])" newline="True" />
+            </for>
+        </body>
+    </function>
+    <function name="ChoosePizzas" type="None" variable="">
+        <parameters>
+            <parameter name="noOfPizzas" type="Integer" array="False" />
+            <parameter name="pizzaNames" type="String" array="True" />
+            <parameter name="sizeNames" type="String" array="True" />
+            <parameter name="sizePrices" type="Integer" array="True" />
+            <parameter name="toppingNames" type="String" array="True" />
+            <parameter name="toppingPrices" type="Integer" array="True" />
+            <parameter name="chosenPizza" type="Integer" array="True" />
+            <parameter name="chosenSize" type="Integer" array="True" />
+            <parameter name="toppingCount" type="Integer" array="True" />
+            <parameter name="chosenToppings" type="Integer" array="True" />
+            <parameter name="pizzaCost" type="Integer" array="True" />
+        </parameters>
+        <body>
+            <comment text="ABSTRACTION: Record the pizza type, size and distinct toppings for every pizza in the order." />
+            <comment text="VARIABLES: Declare the local values used in this function." />
+            <declare name="pizza" type="Integer" array="False" size="" />
+            <declare name="topping" type="Integer" array="False" size="" />
+            <declare name="candidate" type="Integer" array="False" size="" />
+            <declare name="index" type="Integer" array="False" size="" />
+            <comment text="VARIABLES: Declare the local values used in this function." />
+            <declare name="duplicate" type="Boolean" array="False" size="" />
+            <comment text="LOOP / DATA SETUP: Initialise all 49 topping slots." />
+            <for variable="index" start="0" end="48" direction="inc" step="1">
+                <comment text="DATA STORAGE: Use pizza * 7 + topping to locate a topping in the flat array." />
+                <assign variable="chosenToppings[index]" expression="-1" />
+            </for>
+            <comment text="LOOP / DATA SETUP: Initialise the seven pizza record slots." />
+            <for variable="index" start="0" end="6" direction="inc" step="1">
+                <assign variable="chosenPizza[index]" expression="0" />
+                <assign variable="chosenSize[index]" expression="0" />
+                <assign variable="toppingCount[index]" expression="0" />
+                <assign variable="pizzaCost[index]" expression="0" />
+            </for>
+            <comment text="LOOP: Repeat pizza selection once for every pizza ordered." />
+            <for variable="pizza" start="0" end="noOfPizzas - 1" direction="inc" step="1">
+                <output expression="&quot;Pizza &quot; &amp; ToString(pizza + 1) &amp; &quot; of &quot; &amp; ToString(noOfPizzas)" newline="True" />
+                <comment text="ABSTRACTION: Call ShowPizzaMenu to display the pizza choices." />
+                <call expression="ShowPizzaMenu(pizzaNames)" />
+                <comment text="INPUT / VALIDATION: Get a whole-number choice in the permitted range." />
+                <assign variable="chosenPizza[pizza]" expression="ReadInteger(&quot;Pizza choice (1-7):&quot;, 1, 7) - 1" />
+                <output expression="&quot;Size menu:&quot;" newline="True" />
+                <comment text="ABSTRACTION: Call ShowPricedMenu to display the sizes or toppings and prices." />
+                <call expression="ShowPricedMenu(sizeNames, sizePrices, 3)" />
+                <comment text="INPUT / VALIDATION: Get a whole-number choice in the permitted range." />
+                <assign variable="chosenSize[pizza]" expression="ReadInteger(&quot;Size (1-3):&quot;, 1, 3) - 1" />
+                <comment text="INPUT / VALIDATION: Get a whole-number choice in the permitted range." />
+                <assign variable="toppingCount[pizza]" expression="ReadInteger(&quot;Number of toppings (1-7):&quot;, 1, 7)" />
+                <output expression="&quot;Topping menu:&quot;" newline="True" />
+                <comment text="ABSTRACTION: Call ShowPricedMenu to display the sizes or toppings and prices." />
+                <call expression="ShowPricedMenu(toppingNames, toppingPrices, 7)" />
+                <assign variable="topping" expression="0" />
+                <comment text="LOOP / VALIDATION: Keep collecting distinct toppings until the requested count is reached." />
+                <while expression="topping &lt; toppingCount[pizza]">
+                    <comment text="INPUT / VALIDATION: Get a whole-number choice in the permitted range." />
+                    <assign variable="candidate" expression="ReadInteger(&quot;Topping choice (1-7):&quot;, 1, 7) - 1" />
+                    <assign variable="duplicate" expression="false" />
+                    <comment text="LOOP / VALIDATION: Compare the new topping with those already selected for this pizza." />
+                    <for variable="index" start="0" end="topping - 1" direction="inc" step="1">
+                        <comment text="SELECTION / VALIDATION: Check chosenToppings[pizza * 7 + index] = candidate and follow the appropriate branch." />
+                        <if expression="chosenToppings[pizza * 7 + index] = candidate">
+                            <then>
+                                <assign variable="duplicate" expression="true" />
+                            </then>
+                            <else />
+                        </if>
+                    </for>
+                    <comment text="SELECTION / VALIDATION: Check duplicate and follow the appropriate branch." />
+                    <if expression="duplicate">
+                        <then>
+                            <output expression="&quot;That topping is already selected for this pizza. Choose another.&quot;" newline="True" />
+                        </then>
+                        <else>
+                            <comment text="DATA STORAGE: Use pizza * 7 + topping to locate a topping in the flat array." />
+                            <assign variable="chosenToppings[pizza * 7 + topping]" expression="candidate" />
+                            <assign variable="topping" expression="topping + 1" />
+                        </else>
+                    </if>
+                </while>
+                <comment text="CALCULATION: Calculate and store the complete cost of this pizza." />
+                <assign variable="pizzaCost[pizza]" expression="CalculateCost(chosenSize[pizza], toppingCount[pizza], chosenToppings, pizza, sizePrices, toppingPrices)" />
+            </for>
+        </body>
+    </function>
+    <function name="CalculateCost" type="Integer" variable="cost">
+        <parameters>
+            <parameter name="sizeId" type="Integer" array="False" />
+            <parameter name="count" type="Integer" array="False" />
+            <parameter name="chosenToppings" type="Integer" array="True" />
+            <parameter name="pizza" type="Integer" array="False" />
+            <parameter name="sizePrices" type="Integer" array="True" />
+            <parameter name="toppingPrices" type="Integer" array="True" />
+        </parameters>
+        <body>
+            <comment text="CALCULATION: Add the selected size price and each selected topping price to obtain one pizza cost." />
+            <comment text="VARIABLES: Declare the local values used in this function." />
+            <declare name="cost" type="Integer" array="False" size="" />
+            <declare name="index" type="Integer" array="False" size="" />
+            <comment text="CALCULATION: Set the base price or add the selected topping charge." />
+            <assign variable="cost" expression="sizePrices[sizeId]" />
+            <comment text="LOOP / CALCULATION: Add the price of each topping selected for this pizza." />
+            <for variable="index" start="0" end="count - 1" direction="inc" step="1">
+                <comment text="CALCULATION: Set the base price or add the selected topping charge." />
+                <assign variable="cost" expression="cost + toppingPrices[chosenToppings[pizza * 7 + index]]" />
+            </for>
+        </body>
+    </function>
+    <function name="Money" type="String" variable="formatted">
+        <parameters>
+            <parameter name="pence" type="Integer" array="False" />
+        </parameters>
+        <body>
+            <comment text="FORMATTING: Convert integer pence into pounds with a pound sign and exactly two decimal places." />
+            <comment text="VARIABLES: Declare the local values used in this function." />
+            <declare name="formatted" type="String" array="False" size="" />
+            <comment text="FORMATTING: Use ToFixed to display two decimal places." />
+            <assign variable="formatted" expression="&quot;£&quot; &amp; ToFixed(pence / 100.0, 2)" />
+        </body>
+    </function>
+    <function name="DisplayBill" type="None" variable="">
+        <parameters>
+            <parameter name="customerDetails" type="String" array="True" />
+            <parameter name="noOfPizzas" type="Integer" array="False" />
+            <parameter name="deliveryFee" type="Integer" array="False" />
+            <parameter name="pizzaNames" type="String" array="True" />
+            <parameter name="sizeNames" type="String" array="True" />
+            <parameter name="sizePrices" type="Integer" array="True" />
+            <parameter name="toppingNames" type="String" array="True" />
+            <parameter name="toppingPrices" type="Integer" array="True" />
+            <parameter name="chosenPizza" type="Integer" array="True" />
+            <parameter name="chosenSize" type="Integer" array="True" />
+            <parameter name="toppingCount" type="Integer" array="True" />
+            <parameter name="chosenToppings" type="Integer" array="True" />
+            <parameter name="pizzaCost" type="Integer" array="True" />
+        </parameters>
+        <body>
+            <comment text="OUTPUT: Produce a personalised, itemised bill showing customer details, every pizza and the order total." />
+            <comment text="VARIABLES: Declare the local values used in this function." />
+            <declare name="pizza" type="Integer" array="False" size="" />
+            <declare name="topping" type="Integer" array="False" size="" />
+            <declare name="toppingId" type="Integer" array="False" size="" />
+            <declare name="subtotal" type="Integer" array="False" size="" />
+            <assign variable="subtotal" expression="0" />
+            <output expression="&quot;PENNINE PIZZA WORKS - ITEMISED BILL&quot;" newline="True" />
+            <output expression="&quot;Name: &quot; &amp; customerDetails[0]" newline="True" />
+            <output expression="&quot;Address: &quot; &amp; customerDetails[1]" newline="True" />
+            <output expression="&quot;Phone: &quot; &amp; customerDetails[2]" newline="True" />
+            <comment text="OUTPUT: Show the total number of pizzas ordered." />
+            <output expression="&quot;Number of pizzas: &quot; &amp; ToString(noOfPizzas)" newline="True" />
+            <comment text="LOOP / OUTPUT: Print each pizza and add its cost to the subtotal." />
+            <for variable="pizza" start="0" end="noOfPizzas - 1" direction="inc" step="1">
+                <output expression="ToString(pizza + 1) &amp; &quot;. &quot; &amp; pizzaNames[chosenPizza[pizza]] &amp; &quot; - &quot; &amp; sizeNames[chosenSize[pizza]]" newline="True" />
+                <output expression="&quot;  Base: &quot; &amp; Money(sizePrices[chosenSize[pizza]])" newline="True" />
+                <output expression="&quot;  Number of toppings: &quot; &amp; ToString(toppingCount[pizza])" newline="True" />
+                <comment text="LOOP / OUTPUT: Print each selected topping and its individual charge." />
+                <for variable="topping" start="0" end="toppingCount[pizza] - 1" direction="inc" step="1">
+                    <assign variable="toppingId" expression="chosenToppings[pizza * 7 + topping]" />
+                    <output expression="&quot;  &quot; &amp; toppingNames[toppingId] &amp; &quot;: &quot; &amp; Money(toppingPrices[toppingId])" newline="True" />
+                </for>
+                <output expression="&quot;  Pizza total: &quot; &amp; Money(pizzaCost[pizza])" newline="True" />
+                <comment text="CALCULATION: Add this pizza cost to the running order subtotal." />
+                <assign variable="subtotal" expression="subtotal + pizzaCost[pizza]" />
+            </for>
+            <output expression="&quot;Subtotal: &quot; &amp; Money(subtotal)" newline="True" />
+            <comment text="OUTPUT: Show the delivery charge explicitly on the bill." />
+            <output expression="&quot;Delivery fee: &quot; &amp; Money(deliveryFee)" newline="True" />
+            <comment text="OUTPUT / CALCULATION: Display the subtotal plus delivery as the final total." />
+            <output expression="&quot;Total: &quot; &amp; Money(subtotal + deliveryFee)" newline="True" />
+        </body>
+    </function>
+</flowgorithm>
