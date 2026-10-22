@@ -58,7 +58,7 @@ BuildCores Parts List: [Link](https://uk.buildcores.com/builds/IGPfcTsb5?share=t
 
 
 
-## *PROJECT MANAGER WORKSATION*
+## *PROJECT MANAGER WORKSTATION*
 
 | Project Manager Job role and how this affects the workstation build      |
 | :---        |
